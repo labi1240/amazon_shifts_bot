@@ -1,0 +1,26 @@
+2025-08-01 21:58:22 - root - INFO - Logging initialized. Log file: logs/bot_run_20250801_215822.log
+2025-08-01 21:58:22 - __main__ - INFO - ✅ Loaded YAML configuration from: instant_booking_config.yaml
+2025-08-01 21:58:22 - __main__ - INFO - ⚡ Fast mode: True
+2025-08-01 21:58:22 - __main__ - INFO - 🎯 Instant booking: True
+2025-08-01 21:58:22 - __main__ - INFO - ⏰ Check interval: 45s
+2025-08-01 21:58:22 - __main__ - INFO - 👁️ Headless mode: False
+2025-08-01 21:58:22 - __main__ - INFO - 👁️ Using YAML config headless setting: False
+2025-08-01 21:58:22 - __main__ - INFO - 🚀 Starting Amazon Shift Bot [ID: 50783654]
+2025-08-01 21:58:23 - selenium.webdriver.common.driver_finder - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: /Users/lovepreetgill/.pyenv/versions/3.13.4/lib/python3.13/site-packages/seleniumbase/drivers/uc_driver
+2025-08-01 21:58:23 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/.pyenv/versions/3.13.4/lib/python3.13/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 32527 using 0 to output -1
+2025-08-01 21:58:24 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-08-01 21:58:25 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/.pyenv/versions/3.13.4/lib/python3.13/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 32586 using 0 to output -1
+2025-08-01 21:58:25 - services.session_service - INFO - 🔐 Establishing Amazon session
+2025-08-01 21:58:25 - session_manager - INFO - 🧹 Cleaning up expired session files
+2025-08-01 21:58:25 - session_manager - INFO - 🗑️ Session files cleared
+2025-08-01 21:58:25 - session_manager - WARNING - ⚠️ No saved session found
+2025-08-01 21:58:25 - session_manager - INFO - 🗑️ Session files cleared
+2025-08-01 21:58:25 - services.session_service - INFO - 🔄 Creating new session from scratch
+2025-08-01 21:58:25 - create_session - INFO - 🔐 Creating Amazon session...
+2025-08-01 21:58:25 - create_session - INFO - 🌐 Navigating to Amazon hiring page...
+2025-08-01 21:58:25 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=50854): Max retries exceeded with url: /session/6ca8b38e6b667b366cf51b2bf5d6a7a3/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106132c40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-08-01 21:58:28 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/.pyenv/versions/3.13.4/lib/python3.13/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 32628 using 0 to output -1
+2025-08-01 21:58:31 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-08-01 21:58:31 - amazon_page_objects - INFO - ✅ Found consent button with selector 1: button[data-test-id="consentBtn"]
+2025-08-01 21:58:32 - amazon_page_objects - INFO - ✅ Consent button clicked successfully with selector: button[data-test-id="consentBtn"]
+2025-08-01 21:58:34 - amazon_page_objects - INFO - 🔐 Navigating to login...

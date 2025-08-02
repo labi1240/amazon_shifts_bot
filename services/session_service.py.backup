@@ -1,0 +1,152 @@
+import logging
+from typing import Optional
+from seleniumbase import BaseCase
+from page_objects.amazon.consent import AmazonConsentPage
+from page_objects.amazon.login import AmazonLoginPage
+from session_manager import AmazonSessionManager
+from create_session import SessionCreator
+from config.models import AppConfig
+
+logger = logging.getLogger(__name__)
+
+class SessionService:
+    """Loads/saves cookies, logs in if needed, handles consent popups."""
+    
+    def __init__(self, config: AppConfig):
+        self.config = config
+        self.email = config.auth.email
+        self.password = config.auth.password
+        self.manager = AmazonSessionManager()
+        self.creator = SessionCreator()
+        self.consent_page = AmazonConsentPage()
+        self.login_page = AmazonLoginPage()
+        
+    def establish_session(self, sb: BaseCase, correlation_id: str = None) -> bool:
+        """Ensure we have a valid, logged-in Amazon hiring session."""
+        log_extra = {'correlation_id': correlation_id} if correlation_id else {}
+        logger.info("🔐 Establishing Amazon session", extra=log_extra)
+        
+        try:
+            # 0) First, cleanup any expired sessions
+            self.manager.cleanup_expired_sessions()
+            
+            # 1) Try loading saved cookies
+            if self.manager.load_session(sb) and self._validate(sb):
+                logger.info("✅ Existing session validated successfully", extra=log_extra)
+                return True
+            
+            # Clear any potentially invalid session files before creating new one
+            self.manager.clear_session()
+            logger.info("🔄 Creating new session from scratch", extra=log_extra)
+            
+            # 2) Otherwise, create new session
+            if not self.creator.create_session(sb):
+                logger.error("❌ Failed to create new session", extra=log_extra)
+                return False
+            
+            # 3) Handle consent popups
+            self.consent_page.accept_if_present(sb)
+            
+            # 4) Validate & save cookies
+            if self._validate(sb):
+                self.manager.save_session(sb, self.email)
+                logger.info("✅ New session created and validated", extra=log_extra)
+                return True
+            
+            logger.error("❌ Session validation failed after creation", extra=log_extra)
+            return False
+            
+        except Exception as e:
+            logger.error(f"❌ Session establishment failed: {e}", extra=log_extra)
+            return False
+    
+    def _validate(self, sb: BaseCase) -> bool:
+        """Confirm we're actually logged in by looking for a page element with robust error handling."""
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                logger.info(f"🔍 Validating session (attempt {attempt + 1}/{max_retries})")
+                
+                # Navigate to a reliable page with retry logic
+                navigation_success = False
+                navigation_attempts = 2
+                
+                for nav_attempt in range(navigation_attempts):
+                    try:
+                        sb.open("https://hiring.amazon.com/app#/jobSearch")
+                        navigation_success = True
+                        break
+                    except Exception as nav_e:
+                        logger.warning(f"⚠️ Navigation attempt {nav_attempt + 1} failed: {nav_e}")
+                        if nav_attempt < navigation_attempts - 1:
+                            time.sleep(2)
+                            continue
+                
+                if not navigation_success:
+                    logger.error("❌ Failed to navigate to validation page")
+                    if attempt < max_retries - 1:
+                        time.sleep(5)
+                        continue
+                    return False
+                
+                sb.sleep(1)  # Reduced from 3 to 1 second for faster validation
+                
+                # Check for multiple login indicators
+                login_indicators = [
+                'div:contains("Recommended jobs")',
+                'button:contains("Go to my jobs")',
+                'button:contains("Search all jobs")',
+                'div:contains("Active jobs")',
+                'div[data-test-component="StencilReactRow"]'
+            ]
+            
+            # Check for logout indicators (if present, we're not logged in)
+            logout_indicators = [
+                'button:contains("Sign in")',
+                'input[data-test-id="input-test-id-login"]',
+                'div:contains("Sign in to your account")'
+            ]
+            
+            # Check if we're logged out
+            for indicator in logout_indicators:
+                if sb.is_element_visible(indicator):
+                    logger.debug(f"Session invalid - found logout indicator: {indicator}")
+                    return False
+            
+            # Check if we're logged in
+            for indicator in login_indicators:
+                if sb.is_element_visible(indicator):
+                    logger.debug(f"Session valid - found: {indicator}")
+                    return True
+            
+            # Fallback: check URL
+            current_url = sb.get_current_url()
+            if "jobSearch" in current_url or "myApplications" in current_url or "dashboard" in current_url:
+                logger.debug("Session appears valid based on URL")
+                return True
+                
+            return False
+            
+        except Exception as e:
+            logger.debug(f"Session validation failed: {e}")
+            return False
+    
+    def refresh_session(self, sb: BaseCase, correlation_id: str = None) -> bool:
+        """Force refresh the current session."""
+        log_extra = {'correlation_id': correlation_id} if correlation_id else {}
+        logger.info("🔄 Refreshing session", extra=log_extra)
+        
+        # Clear existing session and create new one
+        return self.establish_session(sb, correlation_id)
+    
+    def ensure_authenticated_session(self, sb: BaseCase, correlation_id: str = None) -> bool:
+        """Alias for establish_session for API consistency."""
+        return self.establish_session(sb, correlation_id)
+    
+    def get_session_status(self) -> dict:
+        """Get current session status information."""
+        return {
+            'is_valid': self._validate(),
+            'email': self.email,
+            'timestamp': getattr(self.manager, 'get_session_timestamp', lambda: None)()
+        }

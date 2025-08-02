@@ -1,0 +1,1167 @@
+2025-07-31 17:13:29 - root - INFO - Logging initialized. Log file: logs/bot_run_20250731_171329.log
+2025-07-31 17:13:29 - __main__ - INFO - Using default configuration
+2025-07-31 17:13:29 - __main__ - INFO - 🚀 Starting Amazon Shift Bot [ID: eb02bc3d]
+2025-07-31 17:13:38 - services.session_service - INFO - 🔐 Establishing Amazon session
+2025-07-31 17:13:38 - session_manager - INFO - 🧹 Cleaning up expired session files
+2025-07-31 17:13:38 - session_manager - INFO - 🗑️ Session files cleared
+2025-07-31 17:13:38 - session_manager - WARNING - ⚠️ No saved session found
+2025-07-31 17:13:38 - session_manager - INFO - 🗑️ Session files cleared
+2025-07-31 17:13:38 - services.session_service - INFO - 🔄 Creating new session from scratch
+2025-07-31 17:13:38 - create_session - INFO - 🔐 Creating Amazon session...
+2025-07-31 17:13:38 - create_session - INFO - 🌐 Navigating to Amazon hiring page...
+2025-07-31 17:13:44 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-31 17:13:44 - amazon_page_objects - INFO - ✅ Found consent button with selector 1: button[data-test-id="consentBtn"]
+2025-07-31 17:13:45 - amazon_page_objects - INFO - ✅ Consent button clicked successfully with selector: button[data-test-id="consentBtn"]
+2025-07-31 17:13:47 - amazon_page_objects - INFO - 🔐 Navigating to login...
+2025-07-31 17:13:55 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-31 17:13:55 - amazon_page_objects - INFO - ℹ️ Consent already handled, skipping...
+2025-07-31 17:13:55 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-31 17:13:56 - amazon_page_objects - INFO - ✅ Found bottom consent button: button[data-test-component="StencilReactButton"] div:contains("I consent")
+2025-07-31 17:13:57 - amazon_page_objects - INFO - ✅ Bottom consent button clicked successfully
+2025-07-31 17:13:59 - amazon_page_objects - INFO - 📧 Entering email...
+2025-07-31 17:13:59 - amazon_page_objects - INFO - 📧 Found email input field: input[data-test-id="input-test-id-login"]
+2025-07-31 17:14:04 - amazon_page_objects - INFO - ➡️ Clicking continue button on email page: button[data-test-id="button-continue"]
+2025-07-31 17:14:07 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-31 17:14:09 - amazon_page_objects - INFO - ℹ️ No bottom consent button found
+2025-07-31 17:14:12 - amazon_page_objects - INFO - 🔍 Checking for PIN page...
+2025-07-31 17:14:12 - amazon_page_objects - INFO - 🔐 Found PIN input field
+2025-07-31 17:14:13 - amazon_page_objects - INFO - 🔐 Entered PIN: 151093
+2025-07-31 17:14:15 - amazon_page_objects - INFO - ➡️ Clicking continue button on PIN page: button[data-test-id="button-continue"]
+2025-07-31 17:14:21 - amazon_page_objects - INFO - 🔍 Checking for email verification selection page...
+2025-07-31 17:14:21 - amazon_page_objects - INFO - 📧 Found email verification selection page
+2025-07-31 17:14:21 - amazon_page_objects - INFO - 📧 Clicked 'Send verification code' button
+2025-07-31 17:14:24 - create_session - INFO - 📧 Retrieving OTP from Gmail...
+2025-07-31 17:14:29 - create_session - INFO - ✅ Retrieved OTP: 661284
+2025-07-31 17:14:29 - amazon_page_objects - INFO - 🔍 Checking for OTP verification page...
+2025-07-31 17:14:32 - amazon_page_objects - INFO - 🔍 OTP verification page found
+2025-07-31 17:14:32 - amazon_page_objects - INFO - 📧 Entering OTP...
+2025-07-31 17:14:34 - amazon_page_objects - INFO - ✅ Entered OTP: 661284
+2025-07-31 17:14:38 - amazon_page_objects - INFO - 🎉 OTP submitted successfully!
+2025-07-31 17:14:42 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-31 17:14:44 - amazon_page_objects - INFO - ℹ️ No bottom consent button found
+2025-07-31 17:14:44 - create_session - INFO - 💾 Saving session...
+2025-07-31 17:14:44 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-31 17:14:44 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-31 17:14:44 - session_manager - INFO - 🍪 Cookies count: 16
+2025-07-31 17:14:44 - create_session - INFO - ✅ Session created and saved successfully!
+2025-07-31 17:14:44 - create_session - INFO - 📁 Session saved to: amazon_session.pkl
+2025-07-31 17:14:44 - create_session - INFO - 🍪 Cookies saved to: amazon_cookies.json
+2025-07-31 17:14:48 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-31 17:14:48 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-31 17:14:48 - session_manager - INFO - 🍪 Cookies count: 16
+2025-07-31 17:14:48 - services.session_service - INFO - ✅ New session created and validated
+2025-07-31 17:14:48 - enhanced_integrated_monitor - INFO - ✅ Loaded filter configuration from /Users/lovepreetgill/developer/amazon_shift_bot/filter_config.yaml
+2025-07-31 17:14:48 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor
+2025-07-31 17:14:48 - enhanced_integrated_monitor - INFO - ✅ Enhanced components initialized successfully
+2025-07-31 17:14:48 - enhanced_integrated_monitor - INFO - 📊 Starting monitoring cycle 1
+2025-07-31 17:14:48 - enhanced_integrated_monitor - INFO - 🔍 Attempt 1: Processing URL 1/3: https://hiring.amazon.com/app#/jobSearch
+2025-07-31 17:16:02 - enhanced_integrated_monitor - INFO - Found guided search modal: div:contains("Tell us a little more about yourself")
+2025-07-31 17:16:02 - enhanced_integrated_monitor - INFO - Clicking 'View all filters' using: button:contains("View all filters")
+2025-07-31 17:16:08 - enhanced_integrated_monitor - INFO - Detected page type: search
+2025-07-31 17:16:09 - enhanced_integrated_monitor - INFO - Found visible element with selector: button:contains("View all filters")
+2025-07-31 17:16:09 - enhanced_integrated_monitor - INFO - ✅ Filters accessible via: button:contains("View all filters")
+2025-07-31 17:16:09 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 1/24: Granville, NY
+2025-07-31 17:16:09 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Granville, NY
+2025-07-31 17:16:09 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:09 - job_components - INFO - Applying city filter: Granville, NY
+2025-07-31 17:16:12 - job_components - INFO - ✅ Applied city filter: Granville, NY
+2025-07-31 17:16:14 - job_components - INFO - ✅ Clicked show results button using: button:contains("Show")
+2025-07-31 17:16:14 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:16:14 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:16:14 - job_components - INFO - Extracting all job information
+2025-07-31 17:16:14 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:16:15 - job_components - INFO - Successfully extracted details for 1 jobs
+2025-07-31 17:16:15 - job_components - INFO - Job extraction complete: 1 jobs, 1 total shifts
+2025-07-31 17:16:15 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 1 jobs extracted
+2025-07-31 17:16:15 - enhanced_integrated_monitor - INFO - 🎯 JOBS FOUND! 1 jobs available.
+2025-07-31 17:16:15 - enhanced_integrated_monitor - INFO - 🎯 Booking enabled! Attempting immediate booking for 1 jobs...
+2025-07-31 17:16:15 - enhanced_integrated_monitor - INFO - 🎯 Attempting to book job 1/1: Fulfillment Center Warehouse Associate
+2025-07-31 17:16:15 - page_objects.shift_booking - INFO - 🔎 Starting shift slot discovery
+2025-07-31 17:16:15 - page_objects.shift_booking - INFO - ✅ Discovered 1 available slots (excluding already booked)
+2025-07-31 17:16:15 - enhanced_integrated_monitor - INFO - 🎯 Attempting to book slot: Fulfillment Center Warehouse Associate at Location TBD
+2025-07-31 17:16:15 - page_objects.shift_booking - INFO - ▶️ Attempting to book slot: Fulfillment Center Warehouse Associate @ Location TBD
+2025-07-31 17:16:15 - page_objects.shift_booking - WARNING - Failed to take initial screenshot: 'BaseCase' object has no attribute 'get_screenshot_as_png'
+2025-07-31 17:16:15 - page_objects.shift_booking - INFO - 🔍 Found 1 job cards with selector: div[data-test-id='JobCard']
+2025-07-31 17:16:15 - page_objects.shift_booking - INFO - 🖱️ Attempting to click job card 1 of 1
+2025-07-31 17:16:15 - page_objects.shift_booking - INFO - ✅ Card clicked using method 1
+2025-07-31 17:16:18 - page_objects.shift_booking - INFO - 🔄 Handling shift dropdown (if present)
+2025-07-31 17:16:18 - page_objects.shift_booking - INFO - ✅ Found shift selection modal: .hvh-careers-emotion-zd3r3r
+2025-07-31 17:16:20 - page_objects.shift_booking - INFO - No shift selection elements found, proceeding without selection
+2025-07-31 17:16:20 - page_objects.shift_booking - ERROR - ❌ Failed to click any apply button
+2025-07-31 17:16:20 - enhanced_integrated_monitor - WARNING - ⚠️ Failed to book slot: Fulfillment Center Warehouse Associate
+2025-07-31 17:16:20 - enhanced_integrated_monitor - WARNING - ⚠️ No slots could be booked from available jobs
+2025-07-31 17:16:20 - enhanced_integrated_monitor - WARNING - ⚠️ Booking attempt failed, continuing monitoring...
+2025-07-31 17:16:21 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:16:22 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Granville, NY
+2025-07-31 17:16:23 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 2/24: Poway, CA
+2025-07-31 17:16:23 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Poway, CA
+2025-07-31 17:16:23 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:23 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:23 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:23 - job_components - INFO - Applying city filter: Poway, CA
+2025-07-31 17:16:23 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:16:24 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:25 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:16:25 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:16:25 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:16:25 - job_components - INFO - Extracting all job information
+2025-07-31 17:16:25 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:16:25 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:16:25 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:16:25 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:16:26 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:16:27 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Poway, CA
+2025-07-31 17:16:27 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 3/24: North Pekin, IL
+2025-07-31 17:16:27 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: North Pekin, IL
+2025-07-31 17:16:27 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:28 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:28 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:28 - job_components - INFO - Applying city filter: North Pekin, IL
+2025-07-31 17:16:30 - job_components - WARNING - Could not trigger search for city North Pekin, IL: 'location_search_button'
+2025-07-31 17:16:31 - job_components - WARNING - Could not find show results button
+2025-07-31 17:16:31 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:16:32 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:16:32 - job_components - INFO - Extracting all job information
+2025-07-31 17:16:32 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:16:32 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:16:32 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:16:32 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:16:32 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:16:33 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: North Pekin, IL
+2025-07-31 17:16:34 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 4/24: Missoula, MT
+2025-07-31 17:16:34 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Missoula, MT
+2025-07-31 17:16:34 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:34 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:34 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:34 - job_components - INFO - Applying city filter: Missoula, MT
+2025-07-31 17:16:34 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:16:35 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:38 - job_components - INFO - ✅ Applied city filter: Missoula, MT
+2025-07-31 17:16:39 - job_components - WARNING - Could not find show results button
+2025-07-31 17:16:39 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:16:40 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:16:40 - job_components - INFO - Extracting all job information
+2025-07-31 17:16:40 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:16:40 - job_components - INFO - Successfully extracted details for 1 jobs
+2025-07-31 17:16:40 - job_components - INFO - Job extraction complete: 1 jobs, 1 total shifts
+2025-07-31 17:16:40 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 1 jobs extracted
+2025-07-31 17:16:40 - enhanced_integrated_monitor - INFO - 🎯 JOBS FOUND! 1 jobs available.
+2025-07-31 17:16:40 - enhanced_integrated_monitor - INFO - 🎯 Booking enabled! Attempting immediate booking for 1 jobs...
+2025-07-31 17:16:40 - enhanced_integrated_monitor - INFO - 🎯 Attempting to book job 1/1: Fulfillment Center Warehouse Associate
+2025-07-31 17:16:40 - page_objects.shift_booking - INFO - 🔎 Starting shift slot discovery
+2025-07-31 17:16:40 - page_objects.shift_booking - INFO - ✅ Discovered 1 available slots (excluding already booked)
+2025-07-31 17:16:40 - enhanced_integrated_monitor - INFO - 🎯 Attempting to book slot: Fulfillment Center Warehouse Associate at Location TBD
+2025-07-31 17:16:40 - page_objects.shift_booking - INFO - ▶️ Attempting to book slot: Fulfillment Center Warehouse Associate @ Location TBD
+2025-07-31 17:16:40 - page_objects.shift_booking - WARNING - Failed to take initial screenshot: 'BaseCase' object has no attribute 'get_screenshot_as_png'
+2025-07-31 17:16:40 - page_objects.shift_booking - INFO - 🔍 Found 1 job cards with selector: div[data-test-id='JobCard']
+2025-07-31 17:16:40 - page_objects.shift_booking - INFO - 🖱️ Attempting to click job card 1 of 1
+2025-07-31 17:16:40 - page_objects.shift_booking - INFO - ✅ Card clicked using method 1
+2025-07-31 17:16:43 - page_objects.shift_booking - INFO - 🔄 Handling shift dropdown (if present)
+2025-07-31 17:16:43 - page_objects.shift_booking - INFO - ✅ Found shift selection modal: .hvh-careers-emotion-zd3r3r
+2025-07-31 17:16:45 - page_objects.shift_booking - INFO - No shift selection elements found, proceeding without selection
+2025-07-31 17:16:46 - page_objects.shift_booking - ERROR - ❌ Failed to click any apply button
+2025-07-31 17:16:46 - enhanced_integrated_monitor - WARNING - ⚠️ Failed to book slot: Fulfillment Center Warehouse Associate
+2025-07-31 17:16:46 - enhanced_integrated_monitor - WARNING - ⚠️ No slots could be booked from available jobs
+2025-07-31 17:16:46 - enhanced_integrated_monitor - WARNING - ⚠️ Booking attempt failed, continuing monitoring...
+2025-07-31 17:16:47 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:16:48 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Missoula, MT
+2025-07-31 17:16:49 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 5/24: Ashland, MO
+2025-07-31 17:16:49 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Ashland, MO
+2025-07-31 17:16:49 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:49 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:49 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:49 - job_components - INFO - Applying city filter: Ashland, MO
+2025-07-31 17:16:49 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:16:50 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:51 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:16:51 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:16:52 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:16:52 - job_components - INFO - Extracting all job information
+2025-07-31 17:16:52 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:16:52 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:16:52 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:16:52 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:16:52 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:16:53 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Ashland, MO
+2025-07-31 17:16:54 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 6/24: Gypsum, CO
+2025-07-31 17:16:54 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Gypsum, CO
+2025-07-31 17:16:54 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:54 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:54 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:54 - job_components - INFO - Applying city filter: Gypsum, CO
+2025-07-31 17:16:54 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:16:55 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:56 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:16:56 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:16:57 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:16:57 - job_components - INFO - Extracting all job information
+2025-07-31 17:16:57 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:16:57 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:16:57 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:16:57 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:16:57 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:16:58 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Gypsum, CO
+2025-07-31 17:16:59 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 7/24: Belgrade, MT
+2025-07-31 17:16:59 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Belgrade, MT
+2025-07-31 17:16:59 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:16:59 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:59 - job_components - INFO - Filters panel already open
+2025-07-31 17:16:59 - job_components - INFO - Applying city filter: Belgrade, MT
+2025-07-31 17:16:59 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:00 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:01 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:01 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:02 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:02 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:02 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:02 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:02 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:02 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:02 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:03 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Belgrade, MT
+2025-07-31 17:17:04 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 8/24: Basalt, CO
+2025-07-31 17:17:04 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Basalt, CO
+2025-07-31 17:17:04 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:04 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:04 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:04 - job_components - INFO - Applying city filter: Basalt, CO
+2025-07-31 17:17:04 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:05 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:06 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:06 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:07 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:07 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:07 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:07 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:07 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:07 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:08 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:09 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Basalt, CO
+2025-07-31 17:17:09 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 9/24: Ottawa, IL
+2025-07-31 17:17:09 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Ottawa, IL
+2025-07-31 17:17:09 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:09 - job_components - INFO - Applying city filter: Ottawa, IL
+2025-07-31 17:17:09 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:11 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:11 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:12 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:12 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:12 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:12 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:12 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:12 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:12 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:13 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Ottawa, IL
+2025-07-31 17:17:14 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 10/24: Tillamook, OR
+2025-07-31 17:17:14 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Tillamook, OR
+2025-07-31 17:17:14 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:14 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:14 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:14 - job_components - INFO - Applying city filter: Tillamook, OR
+2025-07-31 17:17:14 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:15 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:16 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:16 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:17 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:17 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:17 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:17 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:17 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:17 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:17 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:18 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Tillamook, OR
+2025-07-31 17:17:19 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 11/24: Jackson, WY
+2025-07-31 17:17:19 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Jackson, WY
+2025-07-31 17:17:19 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:19 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:19 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:19 - job_components - INFO - Applying city filter: Jackson, WY
+2025-07-31 17:17:19 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:20 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:21 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:21 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:22 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:22 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:22 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:22 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:22 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:22 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:22 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:23 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Jackson, WY
+2025-07-31 17:17:24 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 12/24: Weston, WI
+2025-07-31 17:17:24 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Weston, WI
+2025-07-31 17:17:24 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:24 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:24 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:24 - job_components - INFO - Applying city filter: Weston, WI
+2025-07-31 17:17:24 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:25 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:26 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:26 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:27 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:27 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:27 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:27 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:27 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:27 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:27 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:28 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Weston, WI
+2025-07-31 17:17:29 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 13/24: Capitola, CA
+2025-07-31 17:17:29 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Capitola, CA
+2025-07-31 17:17:29 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:29 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:29 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:29 - job_components - INFO - Applying city filter: Capitola, CA
+2025-07-31 17:17:29 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:30 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:31 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:31 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:32 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:32 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:32 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:32 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:32 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:32 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:32 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:33 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Capitola, CA
+2025-07-31 17:17:34 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 14/24: Bend, OR
+2025-07-31 17:17:34 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Bend, OR
+2025-07-31 17:17:34 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:34 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:34 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:34 - job_components - INFO - Applying city filter: Bend, OR
+2025-07-31 17:17:34 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:35 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:36 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:36 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:36 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:36 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:37 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:37 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:37 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:37 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:37 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:38 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Bend, OR
+2025-07-31 17:17:39 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 15/24: La Crosse, WI
+2025-07-31 17:17:39 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: La Crosse, WI
+2025-07-31 17:17:39 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:39 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:39 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:39 - job_components - INFO - Applying city filter: La Crosse, WI
+2025-07-31 17:17:39 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:40 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:41 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:41 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:41 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:41 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:41 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:42 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:42 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:42 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:42 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:43 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: La Crosse, WI
+2025-07-31 17:17:44 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 16/24: Jerome, ID
+2025-07-31 17:17:44 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Jerome, ID
+2025-07-31 17:17:44 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:44 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:44 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:44 - job_components - INFO - Applying city filter: Jerome, ID
+2025-07-31 17:17:44 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:45 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:46 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:46 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:46 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:46 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:46 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:46 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:46 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:47 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:47 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:48 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Jerome, ID
+2025-07-31 17:17:49 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 17/24: Gaylord, MI
+2025-07-31 17:17:49 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Gaylord, MI
+2025-07-31 17:17:49 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:49 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:49 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:49 - job_components - INFO - Applying city filter: Gaylord, MI
+2025-07-31 17:17:49 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:50 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:51 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:51 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:51 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:51 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:51 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:52 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:52 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:52 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:52 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:53 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Gaylord, MI
+2025-07-31 17:17:54 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 18/24: Traverse City, MI
+2025-07-31 17:17:54 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Traverse City, MI
+2025-07-31 17:17:54 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:54 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:54 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:54 - job_components - INFO - Applying city filter: Traverse City, MI
+2025-07-31 17:17:54 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:17:55 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:56 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:17:56 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:17:56 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:17:56 - job_components - INFO - Extracting all job information
+2025-07-31 17:17:56 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:17:57 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:17:57 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:17:57 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:17:57 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:17:58 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Traverse City, MI
+2025-07-31 17:17:59 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 19/24: Richfield, UT
+2025-07-31 17:17:59 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Richfield, UT
+2025-07-31 17:17:59 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:17:59 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:59 - job_components - INFO - Filters panel already open
+2025-07-31 17:17:59 - job_components - INFO - Applying city filter: Richfield, UT
+2025-07-31 17:17:59 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:18:00 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:01 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:18:01 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:18:01 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:18:01 - job_components - INFO - Extracting all job information
+2025-07-31 17:18:01 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:18:02 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:18:02 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:18:02 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:18:02 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:18:03 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Richfield, UT
+2025-07-31 17:18:04 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 20/24: Caribou, ME
+2025-07-31 17:18:04 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Caribou, ME
+2025-07-31 17:18:04 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:18:04 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:04 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:04 - job_components - INFO - Applying city filter: Caribou, ME
+2025-07-31 17:18:04 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:18:05 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:06 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:18:06 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:18:06 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:18:06 - job_components - INFO - Extracting all job information
+2025-07-31 17:18:06 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:18:06 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:18:06 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:18:06 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:18:07 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:18:08 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Caribou, ME
+2025-07-31 17:18:08 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 21/24: Kahului, HI
+2025-07-31 17:18:08 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Kahului, HI
+2025-07-31 17:18:08 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:18:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:09 - job_components - INFO - Applying city filter: Kahului, HI
+2025-07-31 17:18:09 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:18:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:11 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:18:11 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:18:11 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:18:11 - job_components - INFO - Extracting all job information
+2025-07-31 17:18:11 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:18:11 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:18:11 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:18:11 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:18:12 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:18:13 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Kahului, HI
+2025-07-31 17:18:13 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 22/24: Hyannis, MA
+2025-07-31 17:18:13 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Hyannis, MA
+2025-07-31 17:18:13 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:18:13 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:14 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:14 - job_components - INFO - Applying city filter: Hyannis, MA
+2025-07-31 17:18:14 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:18:15 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:16 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:18:16 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:18:16 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:18:16 - job_components - INFO - Extracting all job information
+2025-07-31 17:18:16 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:18:16 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:18:16 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:18:16 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:18:17 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:18:18 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Hyannis, MA
+2025-07-31 17:18:18 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 23/24: Lexington, KY
+2025-07-31 17:18:18 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Lexington, KY
+2025-07-31 17:18:18 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:18:18 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:18 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:18 - job_components - INFO - Applying city filter: Lexington, KY
+2025-07-31 17:18:18 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:18:20 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:21 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:18:21 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:18:21 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:18:21 - job_components - INFO - Extracting all job information
+2025-07-31 17:18:21 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:18:21 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:18:21 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:18:21 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:18:22 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:18:23 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Lexington, KY
+2025-07-31 17:18:23 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 24/24: Bozeman, MT
+2025-07-31 17:18:23 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Bozeman, MT
+2025-07-31 17:18:23 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:18:23 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:23 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:23 - job_components - INFO - Applying city filter: Bozeman, MT
+2025-07-31 17:18:23 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:18:25 - job_components - INFO - Filters panel already open
+2025-07-31 17:18:26 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:18:26 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:18:26 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:18:26 - job_components - INFO - Extracting all job information
+2025-07-31 17:18:26 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:18:26 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:18:26 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:18:26 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:18:27 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:18:28 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Bozeman, MT
+2025-07-31 17:18:28 - enhanced_integrated_monitor - INFO - ✅ Completed processing all 24 cities. No bookings made.
+2025-07-31 17:18:28 - enhanced_integrated_monitor - INFO - ⏰ Waiting 120s until next cycle
+2025-07-31 17:20:28 - enhanced_integrated_monitor - INFO - 📊 Starting monitoring cycle 2
+2025-07-31 17:20:28 - enhanced_integrated_monitor - INFO - 🔍 Attempt 1: Processing URL 1/3: https://hiring.amazon.com/app#/jobSearch
+2025-07-31 17:21:43 - enhanced_integrated_monitor - INFO - Found guided search modal: div:contains("Tell us a little more about yourself")
+2025-07-31 17:21:43 - enhanced_integrated_monitor - INFO - Clicking 'View all filters' using: button:contains("View all filters")
+2025-07-31 17:21:47 - enhanced_integrated_monitor - INFO - Detected page type: search
+2025-07-31 17:21:48 - enhanced_integrated_monitor - INFO - Found visible element with selector: button:contains("View all filters")
+2025-07-31 17:21:48 - enhanced_integrated_monitor - INFO - ✅ Filters accessible via: button:contains("View all filters")
+2025-07-31 17:21:48 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 1/24: Granville, NY
+2025-07-31 17:21:48 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Granville, NY
+2025-07-31 17:21:48 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:21:48 - job_components - INFO - Filters panel already open
+2025-07-31 17:21:48 - job_components - INFO - Filters panel already open
+2025-07-31 17:21:48 - job_components - INFO - Applying city filter: Granville, NY
+2025-07-31 17:21:50 - job_components - INFO - ✅ Applied city filter: Granville, NY
+2025-07-31 17:21:52 - job_components - INFO - ✅ Clicked show results button using: button:contains("Show")
+2025-07-31 17:21:52 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:21:53 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:21:53 - job_components - INFO - Extracting all job information
+2025-07-31 17:21:53 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:21:53 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:21:53 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:21:53 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:21:53 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:21:54 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Granville, NY
+2025-07-31 17:21:55 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 2/24: Poway, CA
+2025-07-31 17:21:55 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Poway, CA
+2025-07-31 17:21:55 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:21:55 - job_components - INFO - Filters panel already open
+2025-07-31 17:21:55 - job_components - INFO - Filters panel already open
+2025-07-31 17:21:55 - job_components - INFO - Applying city filter: Poway, CA
+2025-07-31 17:21:55 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:21:56 - job_components - INFO - Filters panel already open
+2025-07-31 17:21:57 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:21:57 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:21:58 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:21:58 - job_components - INFO - Extracting all job information
+2025-07-31 17:21:58 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:21:58 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:21:58 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:21:58 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:21:58 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:21:59 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Poway, CA
+2025-07-31 17:22:00 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 3/24: North Pekin, IL
+2025-07-31 17:22:00 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: North Pekin, IL
+2025-07-31 17:22:00 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:00 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:00 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:00 - job_components - INFO - Applying city filter: North Pekin, IL
+2025-07-31 17:22:00 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:01 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:02 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:02 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:03 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:03 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:03 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:03 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:03 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:03 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:03 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:04 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: North Pekin, IL
+2025-07-31 17:22:05 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 4/24: Missoula, MT
+2025-07-31 17:22:05 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Missoula, MT
+2025-07-31 17:22:05 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:05 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:05 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:05 - job_components - INFO - Applying city filter: Missoula, MT
+2025-07-31 17:22:05 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:06 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:07 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:07 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:08 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:08 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:08 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:08 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:08 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:08 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:08 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:09 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Missoula, MT
+2025-07-31 17:22:10 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 5/24: Ashland, MO
+2025-07-31 17:22:10 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Ashland, MO
+2025-07-31 17:22:10 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:10 - job_components - INFO - Applying city filter: Ashland, MO
+2025-07-31 17:22:10 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:11 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:12 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:12 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:13 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:13 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:13 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:13 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:13 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:13 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:13 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:14 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Ashland, MO
+2025-07-31 17:22:15 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 6/24: Gypsum, CO
+2025-07-31 17:22:15 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Gypsum, CO
+2025-07-31 17:22:15 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:15 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:15 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:15 - job_components - INFO - Applying city filter: Gypsum, CO
+2025-07-31 17:22:15 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:16 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:17 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:17 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:18 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:18 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:18 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:18 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:18 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:18 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:18 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:19 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Gypsum, CO
+2025-07-31 17:22:20 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 7/24: Belgrade, MT
+2025-07-31 17:22:20 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Belgrade, MT
+2025-07-31 17:22:20 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:20 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:20 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:20 - job_components - INFO - Applying city filter: Belgrade, MT
+2025-07-31 17:22:20 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:21 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:22 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:22 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:23 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:23 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:23 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:23 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:23 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:23 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:23 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:24 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Belgrade, MT
+2025-07-31 17:22:25 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 8/24: Basalt, CO
+2025-07-31 17:22:25 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Basalt, CO
+2025-07-31 17:22:25 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:25 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:25 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:25 - job_components - INFO - Applying city filter: Basalt, CO
+2025-07-31 17:22:25 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:26 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:27 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:27 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:27 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:27 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:27 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:28 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:28 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:28 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:28 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:29 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Basalt, CO
+2025-07-31 17:22:30 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 9/24: Ottawa, IL
+2025-07-31 17:22:30 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Ottawa, IL
+2025-07-31 17:22:30 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:30 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:30 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:30 - job_components - INFO - Applying city filter: Ottawa, IL
+2025-07-31 17:22:30 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:31 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:32 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:32 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:32 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:32 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:32 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:33 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:33 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:33 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:33 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:34 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Ottawa, IL
+2025-07-31 17:22:35 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 10/24: Tillamook, OR
+2025-07-31 17:22:35 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Tillamook, OR
+2025-07-31 17:22:35 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:35 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:35 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:35 - job_components - INFO - Applying city filter: Tillamook, OR
+2025-07-31 17:22:35 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:36 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:37 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:37 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:37 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:37 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:37 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:38 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:38 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:38 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:38 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:39 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Tillamook, OR
+2025-07-31 17:22:39 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 11/24: Jackson, WY
+2025-07-31 17:22:39 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Jackson, WY
+2025-07-31 17:22:39 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:40 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:40 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:40 - job_components - INFO - Applying city filter: Jackson, WY
+2025-07-31 17:22:40 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:41 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:42 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:42 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:42 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:42 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:42 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:42 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:42 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:42 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:43 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:44 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Jackson, WY
+2025-07-31 17:22:44 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 12/24: Weston, WI
+2025-07-31 17:22:44 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Weston, WI
+2025-07-31 17:22:44 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:44 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:45 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:45 - job_components - INFO - Applying city filter: Weston, WI
+2025-07-31 17:22:45 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:46 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:47 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:47 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:47 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:47 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:47 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:47 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:47 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:47 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:48 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:49 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Weston, WI
+2025-07-31 17:22:49 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 13/24: Capitola, CA
+2025-07-31 17:22:49 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Capitola, CA
+2025-07-31 17:22:49 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:49 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:49 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:49 - job_components - INFO - Applying city filter: Capitola, CA
+2025-07-31 17:22:50 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:51 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:52 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:52 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:52 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:52 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:52 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:52 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:52 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:52 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:53 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:54 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Capitola, CA
+2025-07-31 17:22:54 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 14/24: Bend, OR
+2025-07-31 17:22:54 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Bend, OR
+2025-07-31 17:22:54 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:54 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:54 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:54 - job_components - INFO - Applying city filter: Bend, OR
+2025-07-31 17:22:54 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:22:56 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:57 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:22:57 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:22:57 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:22:57 - job_components - INFO - Extracting all job information
+2025-07-31 17:22:57 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:22:57 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:22:57 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:22:57 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:22:58 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:22:59 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Bend, OR
+2025-07-31 17:22:59 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 15/24: La Crosse, WI
+2025-07-31 17:22:59 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: La Crosse, WI
+2025-07-31 17:22:59 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:22:59 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:59 - job_components - INFO - Filters panel already open
+2025-07-31 17:22:59 - job_components - INFO - Applying city filter: La Crosse, WI
+2025-07-31 17:22:59 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:00 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:02 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:02 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:02 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:02 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:02 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:02 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:02 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:02 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:03 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:04 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: La Crosse, WI
+2025-07-31 17:23:04 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 16/24: Jerome, ID
+2025-07-31 17:23:04 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Jerome, ID
+2025-07-31 17:23:04 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:04 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:04 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:04 - job_components - INFO - Applying city filter: Jerome, ID
+2025-07-31 17:23:04 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:05 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:06 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:06 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:07 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:07 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:07 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:07 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:07 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:07 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:08 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:09 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Jerome, ID
+2025-07-31 17:23:09 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 17/24: Gaylord, MI
+2025-07-31 17:23:09 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Gaylord, MI
+2025-07-31 17:23:09 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:09 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:09 - job_components - INFO - Applying city filter: Gaylord, MI
+2025-07-31 17:23:09 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:11 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:11 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:12 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:12 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:12 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:12 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:12 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:12 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:13 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:14 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Gaylord, MI
+2025-07-31 17:23:14 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 18/24: Traverse City, MI
+2025-07-31 17:23:14 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Traverse City, MI
+2025-07-31 17:23:14 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:14 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:14 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:14 - job_components - INFO - Applying city filter: Traverse City, MI
+2025-07-31 17:23:14 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:15 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:16 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:16 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:17 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:17 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:17 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:17 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:17 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:17 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:18 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:19 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Traverse City, MI
+2025-07-31 17:23:19 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 19/24: Richfield, UT
+2025-07-31 17:23:19 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Richfield, UT
+2025-07-31 17:23:19 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:19 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:19 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:19 - job_components - INFO - Applying city filter: Richfield, UT
+2025-07-31 17:23:19 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:20 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:21 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:21 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:22 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:22 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:22 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:22 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:22 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:22 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:22 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:23 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Richfield, UT
+2025-07-31 17:23:24 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 20/24: Caribou, ME
+2025-07-31 17:23:24 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Caribou, ME
+2025-07-31 17:23:24 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:24 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:24 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:24 - job_components - INFO - Applying city filter: Caribou, ME
+2025-07-31 17:23:24 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:25 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:26 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:26 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:27 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:27 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:27 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:27 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:27 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:27 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:27 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:28 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Caribou, ME
+2025-07-31 17:23:29 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 21/24: Kahului, HI
+2025-07-31 17:23:29 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Kahului, HI
+2025-07-31 17:23:29 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:29 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:29 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:29 - job_components - INFO - Applying city filter: Kahului, HI
+2025-07-31 17:23:29 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:30 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:31 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:31 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:32 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:32 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:32 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:32 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:32 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:32 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:32 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:33 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Kahului, HI
+2025-07-31 17:23:34 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 22/24: Hyannis, MA
+2025-07-31 17:23:34 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Hyannis, MA
+2025-07-31 17:23:34 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:34 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:34 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:34 - job_components - INFO - Applying city filter: Hyannis, MA
+2025-07-31 17:23:34 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:35 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:36 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:36 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:37 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:37 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:37 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:37 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:37 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:37 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:37 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:38 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Hyannis, MA
+2025-07-31 17:23:39 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 23/24: Lexington, KY
+2025-07-31 17:23:39 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Lexington, KY
+2025-07-31 17:23:39 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:39 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:39 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:39 - job_components - INFO - Applying city filter: Lexington, KY
+2025-07-31 17:23:39 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:40 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:41 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:41 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:42 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:42 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:42 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:42 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:42 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:42 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:44 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:45 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Lexington, KY
+2025-07-31 17:23:45 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 24/24: Bozeman, MT
+2025-07-31 17:23:45 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Bozeman, MT
+2025-07-31 17:23:45 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:23:45 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:45 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:45 - job_components - INFO - Applying city filter: Bozeman, MT
+2025-07-31 17:23:45 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:23:47 - job_components - INFO - Filters panel already open
+2025-07-31 17:23:48 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:23:48 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:23:48 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:23:48 - job_components - INFO - Extracting all job information
+2025-07-31 17:23:48 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:23:48 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:23:48 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:23:48 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:23:49 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:23:50 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Bozeman, MT
+2025-07-31 17:23:50 - enhanced_integrated_monitor - INFO - ✅ Completed processing all 24 cities. No bookings made.
+2025-07-31 17:23:50 - enhanced_integrated_monitor - INFO - ⏰ Waiting 120s until next cycle
+2025-07-31 17:25:50 - enhanced_integrated_monitor - INFO - 📊 Starting monitoring cycle 3
+2025-07-31 17:25:50 - enhanced_integrated_monitor - INFO - 🔍 Attempt 1: Processing URL 1/3: https://hiring.amazon.com/app#/jobSearch
+2025-07-31 17:27:05 - enhanced_integrated_monitor - INFO - Found guided search modal: div:contains("Tell us a little more about yourself")
+2025-07-31 17:27:05 - enhanced_integrated_monitor - INFO - Clicking 'View all filters' using: button:contains("View all filters")
+2025-07-31 17:27:09 - enhanced_integrated_monitor - INFO - Detected page type: search
+2025-07-31 17:27:10 - enhanced_integrated_monitor - INFO - Found visible element with selector: button:contains("View all filters")
+2025-07-31 17:27:10 - enhanced_integrated_monitor - INFO - ✅ Filters accessible via: button:contains("View all filters")
+2025-07-31 17:27:10 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 1/24: Granville, NY
+2025-07-31 17:27:10 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Granville, NY
+2025-07-31 17:27:10 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:10 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:10 - job_components - INFO - Applying city filter: Granville, NY
+2025-07-31 17:27:12 - job_components - INFO - ✅ Applied city filter: Granville, NY
+2025-07-31 17:27:14 - job_components - INFO - ✅ Clicked show results button using: button:contains("Show")
+2025-07-31 17:27:14 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:15 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:15 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:15 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:15 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:15 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:15 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:16 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:17 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Granville, NY
+2025-07-31 17:27:17 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 2/24: Poway, CA
+2025-07-31 17:27:17 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Poway, CA
+2025-07-31 17:27:17 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:17 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:17 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:17 - job_components - INFO - Applying city filter: Poway, CA
+2025-07-31 17:27:17 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:18 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:19 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:19 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:20 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:20 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:20 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:20 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:20 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:20 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:21 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:22 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Poway, CA
+2025-07-31 17:27:22 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 3/24: North Pekin, IL
+2025-07-31 17:27:22 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: North Pekin, IL
+2025-07-31 17:27:22 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:22 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:22 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:22 - job_components - INFO - Applying city filter: North Pekin, IL
+2025-07-31 17:27:22 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:23 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:24 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:24 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:25 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:25 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:25 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:25 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:25 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:25 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:26 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:27 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: North Pekin, IL
+2025-07-31 17:27:27 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 4/24: Missoula, MT
+2025-07-31 17:27:27 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Missoula, MT
+2025-07-31 17:27:27 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:27 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:27 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:27 - job_components - INFO - Applying city filter: Missoula, MT
+2025-07-31 17:27:27 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:28 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:30 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:30 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:30 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:30 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:30 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:30 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:30 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:30 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:31 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:32 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Missoula, MT
+2025-07-31 17:27:32 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 5/24: Ashland, MO
+2025-07-31 17:27:32 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Ashland, MO
+2025-07-31 17:27:32 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:32 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:32 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:32 - job_components - INFO - Applying city filter: Ashland, MO
+2025-07-31 17:27:32 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:33 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:34 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:34 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:35 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:35 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:35 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:35 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:35 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:35 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:36 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:37 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Ashland, MO
+2025-07-31 17:27:37 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 6/24: Gypsum, CO
+2025-07-31 17:27:37 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Gypsum, CO
+2025-07-31 17:27:37 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:37 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:37 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:37 - job_components - INFO - Applying city filter: Gypsum, CO
+2025-07-31 17:27:37 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:38 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:39 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:39 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:40 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:40 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:40 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:40 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:40 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:40 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:41 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:42 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Gypsum, CO
+2025-07-31 17:27:42 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 7/24: Belgrade, MT
+2025-07-31 17:27:42 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Belgrade, MT
+2025-07-31 17:27:42 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:42 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:42 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:42 - job_components - INFO - Applying city filter: Belgrade, MT
+2025-07-31 17:27:42 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:43 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:44 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:44 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:45 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:45 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:45 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:45 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:45 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:45 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:46 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:47 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Belgrade, MT
+2025-07-31 17:27:47 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 8/24: Basalt, CO
+2025-07-31 17:27:47 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Basalt, CO
+2025-07-31 17:27:47 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:47 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:47 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:47 - job_components - INFO - Applying city filter: Basalt, CO
+2025-07-31 17:27:47 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:48 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:50 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:50 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:50 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:50 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:50 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:50 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:50 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:50 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:51 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:52 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Basalt, CO
+2025-07-31 17:27:52 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 9/24: Ottawa, IL
+2025-07-31 17:27:52 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Ottawa, IL
+2025-07-31 17:27:52 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:52 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:52 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:52 - job_components - INFO - Applying city filter: Ottawa, IL
+2025-07-31 17:27:52 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:53 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:54 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:54 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:27:55 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:27:55 - job_components - INFO - Extracting all job information
+2025-07-31 17:27:55 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:27:55 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:27:55 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:27:55 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:27:56 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:27:57 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Ottawa, IL
+2025-07-31 17:27:57 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 10/24: Tillamook, OR
+2025-07-31 17:27:57 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Tillamook, OR
+2025-07-31 17:27:57 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:27:57 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:57 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:57 - job_components - INFO - Applying city filter: Tillamook, OR
+2025-07-31 17:27:57 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:27:58 - job_components - INFO - Filters panel already open
+2025-07-31 17:27:59 - job_components - ERROR - Could not find city input field with any selector after retries
+2025-07-31 17:27:59 - job_components - INFO - ✅ Applied cities filter
+2025-07-31 17:28:00 - job_components - INFO - Successfully applied 1/1 filters
+2025-07-31 17:28:00 - job_components - INFO - Extracting all job information
+2025-07-31 17:28:00 - job_components - INFO - Total jobs found: 0
+2025-07-31 17:28:00 - job_components - INFO - Successfully extracted details for 0 jobs
+2025-07-31 17:28:00 - job_components - INFO - Job extraction complete: 0 jobs, 0 total shifts
+2025-07-31 17:28:00 - enhanced_integrated_monitor - INFO - 📊 Generated report: 0 total jobs, 0 jobs extracted
+2025-07-31 17:28:01 - enhanced_integrated_monitor - INFO - ✅ Cleared city filter using close button: [data-test-component="StencilReactButton"]
+2025-07-31 17:28:02 - enhanced_integrated_monitor - INFO - ✅ Completed processing for city: Tillamook, OR
+2025-07-31 17:28:02 - enhanced_integrated_monitor - INFO - 🏙️ Processing city 11/24: Jackson, WY
+2025-07-31 17:28:02 - enhanced_integrated_monitor - INFO - 🔧 Applying city filter: Jackson, WY
+2025-07-31 17:28:02 - job_components - INFO - Applying filters: ['cities']
+2025-07-31 17:28:02 - job_components - INFO - Filters panel already open
+2025-07-31 17:28:02 - job_components - INFO - Filters panel already open
+2025-07-31 17:28:02 - job_components - INFO - Applying city filter: Jackson, WY
+2025-07-31 17:28:02 - job_components - WARNING - City input not found, attempt 1/2. Trying to reopen filters panel...
+2025-07-31 17:28:03 - enhanced_integrated_monitor - INFO - 🛑 Monitoring stopped by user
+2025-07-31 17:28:03 - enhanced_integrated_monitor - INFO - 🏁 Enhanced monitoring stopped
+2025-07-31 17:28:03 - __main__ - INFO - 🛑 Monitoring stopped by user

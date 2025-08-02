@@ -1,0 +1,98 @@
+2025-07-27 15:51:33,336 • ERROR • Fatal error
+Traceback (most recent call last):
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/main.py", line 23, in main
+    if not login(driver):
+           ^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/auth.py", line 38, in login
+    el.clear(); el.send_keys(Config.AMAZON_EMAIL)
+    ^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 155, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=138.0.7204.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   undetected_chromedriver             0x0000000102c52a98 undetected_chromedriver + 6167192
+1   undetected_chromedriver             0x0000000102c4a04a undetected_chromedriver + 6131786
+2   undetected_chromedriver             0x00000001026d6c43 undetected_chromedriver + 416835
+3   undetected_chromedriver             0x000000010271f1ae undetected_chromedriver + 713134
+4   undetected_chromedriver             0x000000010274ec92 undetected_chromedriver + 908434
+5   undetected_chromedriver             0x000000010271c818 undetected_chromedriver + 702488
+6   undetected_chromedriver             0x000000010274ee4e undetected_chromedriver + 908878
+7   undetected_chromedriver             0x000000010277610c undetected_chromedriver + 1069324
+8   undetected_chromedriver             0x000000010274ea63 undetected_chromedriver + 907875
+9   undetected_chromedriver             0x000000010271b0c7 undetected_chromedriver + 696519
+10  undetected_chromedriver             0x000000010271bd31 undetected_chromedriver + 699697
+11  undetected_chromedriver             0x0000000102c10c50 undetected_chromedriver + 5897296
+12  undetected_chromedriver             0x0000000102c14cc9 undetected_chromedriver + 5913801
+13  undetected_chromedriver             0x0000000102beb962 undetected_chromedriver + 5744994
+14  undetected_chromedriver             0x0000000102c1564f undetected_chromedriver + 5916239
+15  undetected_chromedriver             0x0000000102bda634 undetected_chromedriver + 5674548
+16  undetected_chromedriver             0x0000000102c37628 undetected_chromedriver + 6055464
+17  undetected_chromedriver             0x0000000102c377f0 undetected_chromedriver + 6055920
+18  undetected_chromedriver             0x0000000102c49be1 undetected_chromedriver + 6130657
+19  libsystem_pthread.dylib             0x00007ff811914df1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff811910857 thread_start + 15
+
+2025-07-27 15:51:33,585 • INFO • Driver closed
+2025-07-27 15:55:52,298 • INFO • 🛑 Interrupted by user
+2025-07-27 15:55:52,567 • INFO • Driver closed
+2025-07-27 15:58:10,315 • ERROR • Fatal error
+Traceback (most recent call last):
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/main.py", line 33, in main
+    if not login(driver):
+           ^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/auth.py", line 74, in login
+    if click_when_ready(driver, selector, timeout=5):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/utils.py", line 49, in click_when_ready
+    el = WebDriverWait(driver, timeout).until(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 129, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/support/expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 922, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=138.0.7204.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+0   undetected_chromedriver             0x0000000102f32a98 undetected_chromedriver + 6167192
+1   undetected_chromedriver             0x0000000102f2a04a undetected_chromedriver + 6131786
+2   undetected_chromedriver             0x00000001029b6e00 undetected_chromedriver + 417280
+3   undetected_chromedriver             0x00000001029bdb5e undetected_chromedriver + 445278
+4   undetected_chromedriver             0x00000001029c0553 undetected_chromedriver + 456019
+5   undetected_chromedriver             0x00000001029c0603 undetected_chromedriver + 456195
+6   undetected_chromedriver             0x0000000102a086a9 undetected_chromedriver + 751273
+7   undetected_chromedriver             0x0000000102a08e91 undetected_chromedriver + 753297
+8   undetected_chromedriver             0x0000000102a58d64 undetected_chromedriver + 1080676
+9   undetected_chromedriver             0x0000000102a2ecbd undetected_chromedriver + 908477
+10  undetected_chromedriver             0x0000000102a5610c undetected_chromedriver + 1069324
+11  undetected_chromedriver             0x0000000102a2ea63 undetected_chromedriver + 907875
+12  undetected_chromedriver             0x00000001029fb0c7 undetected_chromedriver + 696519
+13  undetected_chromedriver             0x00000001029fbd31 undetected_chromedriver + 699697
+14  undetected_chromedriver             0x0000000102ef0c50 undetected_chromedriver + 5897296
+15  undetected_chromedriver             0x0000000102ef4cc9 undetected_chromedriver + 5913801
+16  undetected_chromedriver             0x0000000102ecb962 undetected_chromedriver + 5744994
+17  undetected_chromedriver             0x0000000102ef564f undetected_chromedriver + 5916239
+18  undetected_chromedriver             0x0000000102eba634 undetected_chromedriver + 5674548
+19  undetected_chromedriver             0x0000000102f17628 undetected_chromedriver + 6055464
+20  undetected_chromedriver             0x0000000102f177f0 undetected_chromedriver + 6055920
+21  undetected_chromedriver             0x0000000102f29be1 undetected_chromedriver + 6130657
+22  libsystem_pthread.dylib             0x00007ff811914df1 _pthread_start + 99
+23  libsystem_pthread.dylib             0x00007ff811910857 thread_start + 15
+
+2025-07-27 15:58:10,576 • INFO • Driver closed

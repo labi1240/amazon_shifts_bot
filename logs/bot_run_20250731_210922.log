@@ -1,0 +1,22 @@
+2025-07-31 21:09:22 - root - INFO - Logging initialized. Log file: logs/bot_run_20250731_210922.log
+2025-07-31 21:09:22 - __main__ - INFO - Using default configuration
+2025-07-31 21:09:22 - __main__ - INFO - 🚀 Starting Amazon Shift Bot [ID: 796c5751]
+2025-07-31 21:09:29 - services.session_service - INFO - 🔐 Establishing Amazon session
+2025-07-31 21:09:38 - session_manager - INFO - 📊 Added 16/16 cookies
+2025-07-31 21:09:50 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-31 21:09:59 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-31 21:10:08 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-31 21:10:08 - session_manager - WARNING - ⚠️ Session restoration failed after validation, clearing invalid session
+2025-07-31 21:10:08 - session_manager - INFO - 🗑️ Session files cleared
+2025-07-31 21:10:08 - session_manager - INFO - 🗑️ Session files cleared
+2025-07-31 21:10:08 - services.session_service - INFO - 🔄 Creating new session from scratch
+2025-07-31 21:10:08 - create_session - INFO - 🔐 Creating Amazon session...
+2025-07-31 21:10:08 - create_session - INFO - 🌐 Navigating to Amazon hiring page...
+2025-07-31 21:10:12 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-31 21:10:12 - amazon_page_objects - INFO - ✅ Found consent button with selector 7: button[data-test-component="StencilReactButton"]
+2025-07-31 21:10:13 - amazon_page_objects - INFO - ✅ Consent button clicked successfully with selector: button[data-test-component="StencilReactButton"]
+2025-07-31 21:10:15 - amazon_page_objects - INFO - 🔐 Navigating to login...
+2025-07-31 21:10:19 - amazon_page_objects - ERROR - ❌ Could not navigate to login
+2025-07-31 21:10:19 - create_session - ERROR - ❌ Failed to navigate to login
+2025-07-31 21:10:19 - services.session_service - ERROR - ❌ Failed to create new session
+2025-07-31 21:10:19 - __main__ - ERROR - ❌ Failed to establish authenticated session

@@ -1,0 +1,16 @@
+2025-08-01 23:31:38 - root - INFO - Logging initialized. Log file: logs/bot_run_20250801_233138.log
+2025-08-01 23:31:38 - __main__ - INFO - ✅ Loaded YAML configuration from: instant_booking_config.yaml
+2025-08-01 23:31:38 - __main__ - INFO - ⚡ Fast mode: True
+2025-08-01 23:31:38 - __main__ - INFO - 🎯 Instant booking: True
+2025-08-01 23:31:38 - __main__ - INFO - ⏰ Check interval: 45s
+2025-08-01 23:31:38 - __main__ - INFO - 👁️ Headless mode: False
+2025-08-01 23:31:38 - __main__ - INFO - 👁️ Using YAML config headless setting: False
+2025-08-01 23:31:38 - __main__ - INFO - 🚀 Starting Amazon Shift Bot [ID: a733c6a2]
+2025-08-01 23:31:38 - selenium.webdriver.common.driver_finder - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: /Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver
+2025-08-01 23:31:38 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 88869 using 0 to output -1
+2025-08-01 23:31:39 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-08-01 23:31:39 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 88906 using 0 to output -1
+2025-08-01 23:31:39 - services.session_service - INFO - 🔐 Establishing Amazon session
+2025-08-01 23:31:39 - services.session_service - ERROR - ❌ Session establishment failed: 'AmazonSessionManager' object has no attribute 'restore_session'
+2025-08-01 23:31:39 - __main__ - ERROR - ❌ Failed to establish authenticated session
+2025-08-01 23:31:40 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=56395): Max retries exceeded with url: /session/228cab593484804df49e2058c49c77b7/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10305c950>: Failed to establish a new connection: [Errno 61] Connection refused'))

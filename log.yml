@@ -1,0 +1,167 @@
+🚀 Starting Amazon Shift Bot - INSTANT BOOKING MODE
+⚡ Optimized for ultra-fast shift booking and continuous monitoring
+
+🔧 Activating virtual environment...
+📚 Installing dependencies...
+🧹 Clearing existing sessions for instant booking optimization...
+🧹 Amazon Session Cleaner
+==============================
+📁 Session file exists: True
+🍪 Cookies file exists: True
+⏰ Session is still valid (created within 12 hours)
+
+❓ Do you want to clear the session files? (y/N): No sessions to clear
+
+📋 INSTANT BOOKING CONFIGURATION:
+   • Check Interval: 45 seconds (ultra-fast)
+   • Fast Mode: ENABLED
+   • Instant Booking: ENABLED
+   • Headless Mode: DISABLED (visible browser)
+   • Session Duration: 24 hours
+   • Parallel Processing: ENABLED
+   • Performance Optimizations: ENABLED
+
+🎯 Starting continuous monitoring with instant booking...
+⚡ Bot will book shifts IMMEDIATELY when found!
+
+2025-08-01 22:03:18 - root - INFO - Logging initialized. Log file: logs/bot_run_20250801_220318.log
+2025-08-01 22:03:18 - __main__ - INFO - ✅ Loaded YAML configuration from: instant_booking_config.yaml
+2025-08-01 22:03:18 - __main__ - INFO - ⚡ Fast mode: True
+2025-08-01 22:03:18 - __main__ - INFO - 🎯 Instant booking: True
+2025-08-01 22:03:18 - __main__ - INFO - ⏰ Check interval: 45s
+2025-08-01 22:03:18 - __main__ - INFO - 👁️ Headless mode: False
+2025-08-01 22:03:18 - __main__ - INFO - 👁️ Using YAML config headless setting: False
+2025-08-01 22:03:18 - __main__ - INFO - 🚀 Starting Amazon Shift Bot [ID: b626c60a]
+2025-08-01 22:03:18 - selenium.webdriver.common.driver_finder - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: /Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver
+2025-08-01 22:03:18 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 35009 using 0 to output -1
+2025-08-01 22:03:19 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-08-01 22:03:19 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 35045 using 0 to output -1
+2025-08-01 22:03:19 - services.session_service - INFO - 🔐 Establishing Amazon session
+2025-08-01 22:03:20 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=55817): Max retries exceeded with url: /session/c0cd3fd584cdaaaa580e585e658a83db/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1039691c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-08-01 22:03:22 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 35102 using 0 to output -1
+2025-08-01 22:03:27 - session_manager - INFO - 📊 Added 15/15 cookies
+2025-08-01 22:03:27 - session_manager - DEBUG - Failed to restore local storage persist:alert: Message: javascript error: missing ) after argument list
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+0   uc_driver                           0x0000000104675a98 uc_driver + 6167192
+1   uc_driver                           0x000000010466d04a uc_driver + 6131786
+2   uc_driver                           0x00000001040f9e00 uc_driver + 417280
+3   uc_driver                           0x0000000104100b5e uc_driver + 445278
+4   uc_driver                           0x000000010410382a uc_driver + 456746
+5   uc_driver                           0x000000010419a20a uc_driver + 1073674
+6   uc_driver                           0x0000000104171c92 uc_driver + 908434
+7   uc_driver                           0x000000010419910c uc_driver + 1069324
+8   uc_driver                           0x0000000104171a63 uc_driver + 907875
+9   uc_driver                           0x000000010413e0c7 uc_driver + 696519
+10  uc_driver                           0x000000010413ed31 uc_driver + 699697
+11  uc_driver                           0x0000000104633c50 uc_driver + 5897296
+12  uc_driver                           0x0000000104637cc9 uc_driver + 5913801
+13  uc_driver                           0x000000010460e962 uc_driver + 5744994
+14  uc_driver                           0x000000010463864f uc_driver + 5916239
+15  uc_driver                           0x00000001045fd634 uc_driver + 5674548
+16  uc_driver                           0x000000010465a628 uc_driver + 6055464
+17  uc_driver                           0x000000010465a7f0 uc_driver + 6055920
+18  uc_driver                           0x000000010466cbe1 uc_driver + 6130657
+19  libsystem_pthread.dylib             0x00007ff811914df1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff811910857 thread_start + 15
+
+2025-08-01 22:03:28 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=55817): Max retries exceeded with url: /session/3d06978a0b2afd9bd4dcdd3b732c8665/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1039a4200>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-08-01 22:03:30 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 35135 using 0 to output -1
+2025-08-01 22:03:38 - session_manager - INFO - ✅ Session valid - found: div[data-test-component="StencilReactRow"]
+2025-08-01 22:03:38 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-08-01 22:03:40 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=55817): Max retries exceeded with url: /session/5118ef64a00eff01c64f86bb6ab98aee/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1039a4aa0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-08-01 22:03:42 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 35199 using 0 to output -1
+2025-08-01 22:03:43 - services.session_service - DEBUG - Session valid - found: div[data-test-component="StencilReactRow"]
+2025-08-01 22:03:43 - services.session_service - INFO - ✅ Existing session validated successfully
+2025-08-01 22:03:43 - enhanced_integrated_monitor - INFO - 🔔 Enhanced Discord notifier initialized successfully
+2025-08-01 22:03:43 - enhanced_integrated_monitor - INFO - ✅ Loaded filter configuration from /Users/lovepreetgill/developer/amazon_shift_bot/filter_config.yaml
+2025-08-01 22:03:43 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor
+2025-08-01 22:03:43 - enhanced_integrated_monitor - INFO - ✅ Enhanced components initialized successfully
+2025-08-01 22:03:43 - enhanced_integrated_monitor - INFO - 📊 Starting monitoring cycle 1
+2025-08-01 22:03:43 - enhanced_integrated_monitor - INFO - 🔍 Attempt 1: Processing URL 1/3: https://hiring.amazon.com/app#/jobSearch
+2025-08-01 22:03:43 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=55817): Max retries exceeded with url: /session/e7b7dd384d8003a3d1975c3cfb651199/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10396a870>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-08-01 22:03:46 - selenium.webdriver.common.service - DEBUG - Started executable: `/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/drivers/uc_driver` in a child process with pid: 35230 using 0 to output -1
+2025-08-01 22:05:06 - job_components - DEBUG - Found 25 job cards to process
+2025-08-01 22:05:08 - job_components - INFO - Successfully extracted details for 25 jobs
+2025-08-01 22:05:08 - job_components - INFO - Job extraction complete: 25 jobs, 1 total shifts
+2025-08-01 22:05:08 - enhanced_integrated_monitor - INFO - 📊 Generated report: 100 total jobs, 25 jobs extracted
+2025-08-01 22:05:08 - enhanced_integrated_monitor - INFO - 🎯 JOBS FOUND! 25 jobs available.
+2025-08-01 22:05:08 - enhanced_integrated_monitor - INFO - 🎯 Booking enabled! Attempting immediate booking for 25 jobs...
+2025-08-01 22:05:08 - enhanced_integrated_monitor - INFO - 🎯 Attempting to book job 1/25: Sortation Center Warehouse Associate
+2025-08-01 22:05:08 - page_objects.shift_booking - INFO - 🔎 Starting shift slot discovery
+2025-08-01 22:05:09 - page_objects.shift_booking - DEBUG - Found 25 cards using selector: div[data-test-id='JobCard']
+2025-08-01 22:05:10 - page_objects.shift_booking - INFO - ✅ Discovered 25 available slots (excluding already booked)
+2025-08-01 22:05:10 - enhanced_integrated_monitor - INFO - 🎯 Attempting to book slot: Sortation Center Warehouse Associate at Location TBD
+2025-08-01 22:05:10 - page_objects.shift_booking - INFO - ▶️ Attempting to book slot: Sortation Center Warehouse Associate @ Location TBD
+2025-08-01 22:05:10 - page_objects.shift_booking - WARNING - Failed to take initial screenshot: 'BaseCase' object has no attribute 'get_screenshot_as_png'
+2025-08-01 22:05:10 - page_objects.shift_booking - INFO - 🔍 Found 25 job cards with selector: div[data-test-id='JobCard']
+2025-08-01 22:05:10 - page_objects.shift_booking - INFO - 🖱️ Attempting to click job card 1 of 25
+2025-08-01 22:05:11 - page_objects.shift_booking - WARNING - Click method 1 failed: Message: element click intercepted: Element <div data-test-component="StencilReactCard" data-test-id="JobCard" role="link" class="pointer focusableItem jobCardItem hvh-careers-emotion-rr9j32" tabindex="0">...</div> is not clickable at point (632, 467). Other element would receive the click: <div data-test-component="StencilFlyoutBackdrop" style="position: fixed; inset: 0px; background-color: rgb(35, 47, 62); opacity: 0.5;"></div>
+  (Session info: chrome=138.0.7204.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   uc_driver                           0x000000010331ba98 uc_driver + 6167192
+1   uc_driver                           0x000000010331304a uc_driver + 6131786
+2   uc_driver                           0x0000000102d9fe00 uc_driver + 417280
+3   uc_driver                           0x0000000102df8b00 uc_driver + 781056
+4   uc_driver                           0x0000000102df695b uc_driver + 772443
+5   uc_driver                           0x0000000102df3ff2 uc_driver + 761842
+6   uc_driver                           0x0000000102df3710 uc_driver + 759568
+7   uc_driver                           0x0000000102de5e9a uc_driver + 704154
+8   uc_driver                           0x0000000102e17c92 uc_driver + 908434
+9   uc_driver                           0x0000000102de5818 uc_driver + 702488
+10  uc_driver                           0x0000000102e17e4e uc_driver + 908878
+11  uc_driver                           0x0000000102e3f10c uc_driver + 1069324
+12  uc_driver                           0x0000000102e17a63 uc_driver + 907875
+13  uc_driver                           0x0000000102de40c7 uc_driver + 696519
+14  uc_driver                           0x0000000102de4d31 uc_driver + 699697
+15  uc_driver                           0x00000001032d9c50 uc_driver + 5897296
+16  uc_driver                           0x00000001032ddcc9 uc_driver + 5913801
+17  uc_driver                           0x00000001032b4962 uc_driver + 5744994
+18  uc_driver                           0x00000001032de64f uc_driver + 5916239
+19  uc_driver                           0x00000001032a3634 uc_driver + 5674548
+20  uc_driver                           0x0000000103300628 uc_driver + 6055464
+21  uc_driver                           0x00000001033007f0 uc_driver + 6055920
+22  uc_driver                           0x0000000103312be1 uc_driver + 6130657
+23  libsystem_pthread.dylib             0x00007ff811914df1 _pthread_start + 99
+24  libsystem_pthread.dylib             0x00007ff811910857 thread_start + 15
+
+2025-08-01 22:05:11 - page_objects.shift_booking - WARNING - Click method 2 failed: Message: javascript error: missing ) after argument list
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+0   uc_driver                           0x000000010331ba98 uc_driver + 6167192
+1   uc_driver                           0x000000010331304a uc_driver + 6131786
+2   uc_driver                           0x0000000102d9fe00 uc_driver + 417280
+3   uc_driver                           0x0000000102da6b5e uc_driver + 445278
+4   uc_driver                           0x0000000102da982a uc_driver + 456746
+5   uc_driver                           0x0000000102e4020a uc_driver + 1073674
+6   uc_driver                           0x0000000102e17c92 uc_driver + 908434
+7   uc_driver                           0x0000000102e3f10c uc_driver + 1069324
+8   uc_driver                           0x0000000102e17a63 uc_driver + 907875
+9   uc_driver                           0x0000000102de40c7 uc_driver + 696519
+10  uc_driver                           0x0000000102de4d31 uc_driver + 699697
+11  uc_driver                           0x00000001032d9c50 uc_driver + 5897296
+12  uc_driver                           0x00000001032ddcc9 uc_driver + 5913801
+13  uc_driver                           0x00000001032b4962 uc_driver + 5744994
+14  uc_driver                           0x00000001032de64f uc_driver + 5916239
+15  uc_driver                           0x00000001032a3634 uc_driver + 5674548
+16  uc_driver                           0x0000000103300628 uc_driver + 6055464
+17  uc_driver                           0x00000001033007f0 uc_driver + 6055920
+18  uc_driver                           0x0000000103312be1 uc_driver + 6130657
+19  libsystem_pthread.dylib             0x00007ff811914df1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff811910857 thread_start + 15
+
+2025-08-01 22:05:11 - page_objects.shift_booking - INFO - ✅ Card clicked using method 3
+2025-08-01 22:05:12 - page_objects.shift_booking - INFO - ⚡ Fast shift dropdown handling
+2025-08-01 22:05:13 - page_objects.shift_booking - INFO - ⚡ Fast shift selection completed
+2025-08-01 22:05:13 - page_objects.shift_booking - INFO - 🔍 Looking for apply button (attempt 1/3)
+2025-08-01 22:05:14 - page_objects.shift_booking - INFO - ✅ Clicked apply button: button[data-test-id='jobDetailApplyButtonDesktop']
+2025-08-01 22:05:17 - page_objects.shift_booking - INFO - ✅ Booking flow completed successfully
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🎉 SUCCESSFULLY BOOKED: Sortation Center Warehouse Associate at Location TBD
+2025-08-01 22:05:17 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🔔 Enhanced Discord booking notification sent successfully
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🎉 SHIFT SUCCESSFULLY BOOKED! Stopping further monitoring.
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🎉 LIGHTNING BOOKING SUCCESS! Job booked in Seattle, WA
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🎉 Booking successful! Stopping monitoring.
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🎉 SHIFT SUCCESSFULLY BOOKED! Stopping monitoring completely.
+2025-08-01 22:05:17 - enhanced_integrated_monitor - INFO - 🏁 Enhanced monitoring stopped
+2025-08-01 22:05:19 - seleniumbase.undetected.reactor - DEBUG - Exception ignored: HTTPConnectionPool(host='localhost', port=55817): Max retries exceeded with url: /session/83d76c26f82324bcf8a8893d2f1a0ccf/se/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103969640>: Failed to establish a new connection: [Errno 61] Connection refused'))

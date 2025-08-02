@@ -1,0 +1,64 @@
+2025-07-30 17:22:16 - root - INFO - Logging initialized. Log file: logs/bot_run_20250730_172216.log
+2025-07-30 17:22:16 - __main__ - INFO - Using default configuration
+2025-07-30 17:22:16 - __main__ - INFO - 🚀 Starting Amazon Shift Bot [ID: dee64a2b]
+2025-07-30 17:22:19 - services.session_service - INFO - 🔐 Establishing Amazon session
+2025-07-30 17:22:27 - session_manager - INFO - 📊 Added 25/25 cookies
+2025-07-30 17:22:35 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-30 17:22:43 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-30 17:22:50 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-30 17:22:50 - session_manager - WARNING - ⚠️ Session restoration failed after validation
+2025-07-30 17:22:50 - services.session_service - INFO - 🔄 Creating new session from scratch
+2025-07-30 17:22:50 - create_session - INFO - 🔐 Creating Amazon session...
+2025-07-30 17:22:50 - create_session - INFO - 🌐 Navigating to Amazon hiring page...
+2025-07-30 17:22:54 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-30 17:22:54 - amazon_page_objects - INFO - ✅ Found consent button with selector 7: button[data-test-component="StencilReactButton"]
+2025-07-30 17:22:55 - amazon_page_objects - INFO - ✅ Consent button clicked successfully with selector: button[data-test-component="StencilReactButton"]
+2025-07-30 17:22:57 - amazon_page_objects - INFO - 🔐 Navigating to login...
+2025-07-30 17:23:03 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-30 17:23:03 - amazon_page_objects - INFO - ℹ️ Consent already handled, skipping...
+2025-07-30 17:23:03 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-30 17:23:04 - amazon_page_objects - INFO - ✅ Found bottom consent button: button[data-test-component="StencilReactButton"] div:contains("I consent")
+2025-07-30 17:23:05 - amazon_page_objects - INFO - ✅ Bottom consent button clicked successfully
+2025-07-30 17:23:07 - amazon_page_objects - INFO - 📧 Entering email...
+2025-07-30 17:23:07 - amazon_page_objects - INFO - 📧 Found email input field: input[data-test-id="input-test-id-login"]
+2025-07-30 17:23:12 - amazon_page_objects - INFO - ➡️ Clicking continue button on email page: button[data-test-id="button-continue"]
+2025-07-30 17:23:15 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-30 17:23:16 - amazon_page_objects - INFO - ℹ️ No bottom consent button found
+2025-07-30 17:23:19 - amazon_page_objects - INFO - 🔍 Checking for PIN page...
+2025-07-30 17:23:19 - amazon_page_objects - INFO - 🔐 Found PIN input field
+2025-07-30 17:23:21 - amazon_page_objects - INFO - 🔐 Entered PIN: 151093
+2025-07-30 17:23:23 - amazon_page_objects - INFO - ➡️ Clicking continue button on PIN page: button[data-test-id="button-continue"]
+2025-07-30 17:23:29 - amazon_page_objects - INFO - 🔍 Checking for email verification selection page...
+2025-07-30 17:23:29 - amazon_page_objects - INFO - 📧 Found email verification selection page
+2025-07-30 17:23:29 - amazon_page_objects - INFO - 📧 Clicked 'Send verification code' button
+2025-07-30 17:23:32 - create_session - INFO - 📧 Retrieving OTP from Gmail...
+2025-07-30 17:23:32 - enhanced_reader - INFO - Searching for OTP in emails from last 1 hours...
+2025-07-30 17:23:34 - enhanced_reader - INFO - IMAP connection established
+2025-07-30 17:23:36 - enhanced_reader - INFO - Checking 11 recent emails...
+2025-07-30 17:23:36 - enhanced_reader - INFO - OTP found in email: Your Amazon Jobs verification code
+2025-07-30 17:23:36 - enhanced_reader - INFO - ✅ OTP Found: 770100
+2025-07-30 17:23:36 - enhanced_reader - INFO - IMAP connection closed
+2025-07-30 17:23:36 - create_session - INFO - ✅ Retrieved OTP: 770100
+2025-07-30 17:23:36 - amazon_page_objects - INFO - 🔍 Checking for OTP verification page...
+2025-07-30 17:23:39 - amazon_page_objects - INFO - 🔍 OTP verification page found
+2025-07-30 17:23:39 - amazon_page_objects - INFO - 📧 Entering OTP...
+2025-07-30 17:23:42 - amazon_page_objects - INFO - ✅ Entered OTP: 770100
+2025-07-30 17:23:45 - amazon_page_objects - INFO - 🎉 OTP submitted successfully!
+2025-07-30 17:23:49 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-30 17:23:51 - amazon_page_objects - INFO - ℹ️ No bottom consent button found
+2025-07-30 17:23:51 - create_session - INFO - 💾 Saving session...
+2025-07-30 17:23:51 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-30 17:23:51 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-30 17:23:51 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-30 17:23:51 - create_session - INFO - ✅ Session created and saved successfully!
+2025-07-30 17:23:51 - create_session - INFO - 📁 Session saved to: amazon_session.pkl
+2025-07-30 17:23:51 - create_session - INFO - 🍪 Cookies saved to: amazon_cookies.json
+2025-07-30 17:23:54 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-30 17:23:54 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-30 17:23:54 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-30 17:23:54 - services.session_service - INFO - ✅ New session created and validated
+2025-07-30 17:23:54 - enhanced_integrated_monitor - INFO - ✅ Loaded filter configuration from /Users/lovepreetgill/developer/amazon_shift_bot/filter_config.yaml
+2025-07-30 17:23:54 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor
+2025-07-30 17:23:54 - enhanced_integrated_monitor - INFO - ✅ Enhanced components initialized successfully
+2025-07-30 17:23:54 - enhanced_integrated_monitor - INFO - 📊 Starting monitoring cycle 1
+2025-07-30 17:23:54 - enhanced_integrated_monitor - INFO - 🔍 Attempt 1: Processing URL 1/3: https://hiring.amazon.com/app#/jobSearch

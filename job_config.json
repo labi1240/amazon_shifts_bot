@@ -1,0 +1,51 @@
+{
+  "target_roles": [
+    {
+      "role_id": "fulfillment_center",
+      "title": "Amazon Fulfillment Center Warehouse Associate",
+      "search_url": "https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Fulfillment%20Center%20Warehouse%20Associate",
+      "priority": 1,
+      "description": "Pick, pack, stow, and receive items in fulfillment centers"
+    },
+    {
+      "role_id": "sortation_center",
+      "title": "Amazon Sortation Center Warehouse Associate",
+      "search_url": "https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate",
+      "priority": 2,
+      "description": "Sort and scan packages for delivery routes"
+    },
+    {
+      "role_id": "delivery_station",
+      "title": "Amazon Delivery Station Warehouse Associate",
+      "search_url": "https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Delivery%20Station%20Warehouse%20Associate",
+      "priority": 3,
+      "description": "Load and stage packages for final delivery"
+    },
+    {
+      "role_id": "xl_warehouse",
+      "title": "Amazon XL Warehouse Associate",
+      "search_url": "https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20XL%20Warehouse%20Associate",
+      "priority": 4,
+      "description": "Handle extra-large and heavy items"
+    }
+  ],
+  "search_strategy": {
+    "method": "direct_url_access",
+    "cycle_interval_minutes": 15,
+    "max_applications_per_role": 3,
+    "prioritize_by_availability": true
+  },
+  "preferences": {
+    "weekly_hours": "Full-time (30+ hours)",
+    "time_preferences": ["Early morning", "Daytime", "Evening", "Night", "Weekday", "Weekend"],
+    "duration": "Regular - more than three months",
+    "start_time": "As soon as possible",
+    "shift_flexibility": "flexible",
+    "overtime_acceptance": false
+  },
+  "locations": {
+    "search_radius_miles": 50,
+    "preferred_states": ["CA", "TX", "FL", "NY", "IL", "PA", "OH", "GA", "NC", "NJ"],
+    "exclude_locations": []
+  }
+}

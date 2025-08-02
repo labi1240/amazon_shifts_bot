@@ -1,0 +1,144 @@
+# Instant Booking Configuration for Amazon Shift Bot
+# Optimized for lightning-fast shift booking and continuous monitoring
+
+# Monitoring Configuration
+monitoring:
+  # Ultra-fast check interval for instant booking (45 seconds)
+  check_interval: 45
+  
+  # Fast error recovery
+  error_retry_delay: 10
+  
+  # Enable aggressive performance optimizations
+  fast_mode: true
+  
+  # Process multiple cities simultaneously
+  parallel_city_processing: true
+  
+  # Enable instant booking when shifts are found
+  instant_booking: true
+  
+  # Maximum monitoring cycles (null for unlimited)
+  max_cycles: null
+
+# Filter Configuration for Instant Booking
+active_filters:
+  - cities
+  - schedule
+  - roles
+
+shift_filters:
+  # Target cities for instant booking (processed in parallel)
+  cities:
+    - "Seattle, WA"
+    - "Bellevue, WA" 
+    - "Renton, WA"
+    - "Tacoma, WA"
+    - "Everett, WA"
+    - "Kent, WA"
+    - "Federal Way, WA"
+    - "Bothell, WA"
+  
+  # Preferred schedules (accept any available)
+  schedule:
+    - "flexible"
+    - "day_shift"
+    - "evening_shift"
+    - "night_shift"
+    - "weekend"
+  
+  # Target job roles for instant booking
+  roles:
+    - "warehouse_associate"
+    - "fulfillment_center"
+    - "sortation_center"
+    - "delivery_station"
+    - "fresh_warehouse"
+
+# Booking Configuration
+booking:
+  # Enable immediate booking when shifts are found
+  enabled: true
+  
+  # Maximum bookings per cycle (1 for instant booking)
+  per_cycle_limit: 1
+  
+  # Daily booking limit
+  daily_limit: 3
+  
+  # Minimal pause between bookings for speed
+  pause_between_bookings: 5
+  
+  # Fast retry attempts
+  retry_attempts: 2
+  
+  # Enable ultra-fast booking mode
+  fast_booking_mode: true
+
+# Performance Optimizations
+performance:
+  # Reduce page load timeouts for speed
+  page_load_timeout: 6
+  
+  # Minimal stabilization time
+  page_stabilization_time: 1
+  
+  # Reduced navigation retries
+  max_navigation_retries: 2
+  
+  # Enable aggressive caching
+  aggressive_caching: true
+  
+  # Skip unnecessary validations in fast mode
+  skip_validations: true
+
+# Notification Settings for Instant Booking
+notifications:
+  # Enable instant booking alerts
+  instant_booking_alerts: true
+  
+  # Send urgent notifications for all booking attempts
+  urgent_booking_notifications: true
+  
+  # Enable success celebration messages
+  success_celebrations: true
+  
+  # Enable performance monitoring alerts
+  performance_alerts: true
+
+# Session Management for 24/7 Operation
+session:
+  # Extended session duration for continuous operation
+  max_session_duration: 86400  # 24 hours
+  
+  # Auto-refresh sessions before expiry
+  auto_refresh: true
+  
+  # Session refresh interval (every 6 hours)
+  refresh_interval: 21600
+  
+  # Enable session persistence
+  persistent_sessions: true
+  
+  # Backup session files for reliability
+  backup_sessions: true
+
+# Advanced Settings
+advanced:
+  # Disable headless mode so you can see what's happening
+  headless: false
+  
+  # Disable images for faster loading
+  disable_images: false  # Keep enabled for proper element detection
+  
+  # Enable undetectable mode
+  undetectable: true
+  
+  # Enable CDP events for better control
+  uc_cdp_events: true
+  
+  # Concurrent browser tabs (for future parallel processing)
+  max_concurrent_tabs: 1
+  
+  # Enable memory optimization
+  memory_optimization: true

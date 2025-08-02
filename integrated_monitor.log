@@ -1,0 +1,1762 @@
+2025-07-28 03:48:43,046 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:48:43,046 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 03:48:43,046 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:48:43,046 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 03:48:43,047 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:48:43,047 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:48:43,047 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 03:48:43,047 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:48:43,047 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4373887312'>
+2025-07-28 03:48:43,047 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 03:48:43,047 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:48:43,047 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:48:43,048 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:48:43,048 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:48:43,048 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:49:13,257 - integrated_monitor - INFO - 🧪 Running quick system test...
+2025-07-28 03:49:13,257 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:49:13,257 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 03:49:13,257 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:49:13,569 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:49:13,569 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 03:49:13,569 - integrated_monitor - INFO - 🔧 Testing monitor initialization...
+2025-07-28 03:49:13,569 - integrated_monitor - INFO - 🔐 Testing login capability...
+2025-07-28 03:49:14,031 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:49:14,031 - integrated_monitor - WARNING - ⚠️ Login test failed - may need manual intervention
+2025-07-28 03:49:14,327 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:49:14,327 - integrated_monitor - ERROR - ❌ Quick test failed: 'SmartJobMonitor' object has no attribute 'logger'
+2025-07-28 03:49:14,729 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:50:53,725 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:50:53,725 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 03:50:53,725 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:50:53,725 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 03:50:53,726 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:50:53,726 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:50:53,726 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 03:50:53,726 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:50:53,726 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4372202128'>
+2025-07-28 03:50:53,726 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 03:50:53,727 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:50:53,727 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:50:53,727 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:50:53,727 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:50:53,727 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:51:12,958 - integrated_monitor - INFO - 🧪 Running quick system test...
+2025-07-28 03:51:12,958 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:51:12,958 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 03:51:12,958 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:51:13,245 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:51:13,246 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 03:51:13,246 - integrated_monitor - INFO - 🔧 Testing monitor initialization...
+2025-07-28 03:51:13,246 - integrated_monitor - ERROR - ❌ Quick test failed: SeleniumBase plugins DID NOT load!
+Either "seleniumbase" is not installed on your system,
+or you called "setUp()" directly without initialization!
+*** To install SeleniumBase in Develop Mode from a clone:
+    >>> "pip install -e ."     (Run in DIR with setup.py)
+*** To install the latest SeleniumBase version from PyPI:
+    >>> "pip install -U seleniumbase"    (Run in any DIR)
+NOTE: "setUp()" can ONLY be called after vars are set.
+    If using "pytest", then "pytest_plugin.py" sets them.
+    The SeleniumBase "SB()" Manager can also set them.
+See SeleniumBase/help_docs/syntax_formats.md for details!
+2025-07-28 03:51:13,549 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:44,064 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:54:44,064 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 03:54:44,064 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:54:44,064 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 03:54:44,065 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:54:44,065 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:44,065 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 03:54:44,065 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:54:44,065 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4397088896'>
+2025-07-28 03:54:44,065 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 03:54:44,066 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:44,066 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:44,066 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:44,066 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:44,066 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:56,072 - integrated_monitor - INFO - 🧪 Running quick system test...
+2025-07-28 03:54:56,073 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 03:54:56,073 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 03:54:56,073 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 03:54:56,367 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 03:54:56,368 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 03:54:56,368 - integrated_monitor - INFO - 🔧 Core components validated (browser test skipped)
+2025-07-28 03:54:56,609 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:13,857 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:13:13,857 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:13:13,857 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:13:13,857 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:13:13,857 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:13:13,857 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:13,857 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:13:13,858 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:13:13,858 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4382030496'>
+2025-07-28 04:13:13,858 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:13:13,858 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:13,858 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:13,858 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:13,858 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:13,858 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:19,111 - integrated_monitor - INFO - 🧪 Running quick system test...
+2025-07-28 04:13:19,111 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:13:19,111 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:13:19,111 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:13:19,470 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:13:19,471 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:13:19,471 - integrated_monitor - INFO - 🔧 Core components validated (browser test skipped)
+2025-07-28 04:13:19,808 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:17,192 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:17:17,192 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:17:17,192 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:17:17,192 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:17:17,193 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:17:17,193 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:17,193 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:17:17,193 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:17:17,193 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4578493360'>
+2025-07-28 04:17:17,193 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:17:17,193 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:17,194 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:17,194 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:17,194 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:17,194 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:17:19,066 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:17:38,562 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:25:46,677 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:25:46,677 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:25:46,677 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:25:46,677 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:25:46,678 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:25:46,678 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:25:46,678 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:25:46,678 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:25:46,678 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4373185072'>
+2025-07-28 04:25:46,678 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:25:46,678 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:25:46,678 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:25:46,678 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:25:46,679 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:25:46,679 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:03,653 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:26:03,653 - __main__ - ERROR - ❌ Error starting monitoring: 'IntegratedJobMonitor' object has no attribute 'base_dir'
+2025-07-28 04:26:13,226 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:26:13,226 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:26:13,226 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:26:13,226 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:26:13,226 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:26:13,226 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:13,227 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:26:13,227 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:26:13,227 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4384883776'>
+2025-07-28 04:26:13,227 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:26:13,227 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:13,227 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:13,227 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:13,227 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:13,227 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:26:15,405 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:26:15,405 - __main__ - ERROR - ❌ Error starting monitoring: 'IntegratedJobMonitor' object has no attribute 'base_dir'
+2025-07-28 04:27:12,584 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:27:12,585 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:27:12,585 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:27:12,585 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:27:12,585 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:27:12,585 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:12,585 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:27:12,586 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:27:12,586 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4401283200'>
+2025-07-28 04:27:12,586 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:27:12,586 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:12,586 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:12,586 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:12,586 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:12,586 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:16,302 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:27:16,302 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:27:16,302 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:27:16,302 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:27:16,593 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:27:16,594 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:27:16,594 - __main__ - INFO - 🚀 Starting monitoring with command: /Users/lovepreetgill/developer/amazon_shift_bot/venv/bin/python -m pytest smart_job_monitor.py::SmartJobMonitor::test_smart_monitoring --headed --uc -v -s
+2025-07-28 04:27:17,143 - __main__ - ERROR - ❌ Monitoring failed with return code 4
+2025-07-28 04:27:17,143 - __main__ - ERROR - STDOUT: ========================================= test session starts ==========================================
+platform darwin -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /Users/lovepreetgill/developer/amazon_shift_bot/venv/bin/python
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.3', 'Platform': 'macOS-15.4-arm64-arm-64bit', 'Packages': {'pytest': '8.4.1', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.0.2', 'xdist': '3.8.0', 'metadata': '3.1.1', 'seleniumbase': '4.40.6', 'rerunfailures': '15.1', 'ordering': '0.6'}, 'JAVA_HOME': '/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home'}
+rootdir: /Users/lovepreetgill/developer/amazon_shift_bot
+plugins: html-4.0.2, xdist-3.8.0, metadata-3.1.1, seleniumbase-4.40.6, rerunfailures-15.1, ordering-0.6
+collecting ... collected 0 items
+
+======================================== no tests ran in 0.02s =========================================
+
+2025-07-28 04:27:17,143 - __main__ - ERROR - STDERR: ERROR: not found: /Users/lovepreetgill/developer/amazon_shift_bot/smart_job_monitor.py::SmartJobMonitor::test_smart_monitoring
+(no match in any of [<UnitTestCase SmartJobMonitor>])
+
+
+2025-07-28 04:29:12,110 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:29:12,110 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:29:12,110 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:29:12,110 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:29:12,110 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:29:12,111 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:12,111 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:29:12,111 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:29:12,111 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4392895024'>
+2025-07-28 04:29:12,111 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:29:12,111 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:12,111 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:12,111 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:12,111 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:12,112 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:14,612 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:29:14,612 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:29:14,612 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:29:14,612 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:29:14,989 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:14,990 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:29:14,990 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:29:14,990 - __main__ - INFO - 🎯 Starting monitoring with 300s interval
+2025-07-28 04:29:15,339 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:15,554 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:15,809 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:15,810 - __main__ - ERROR - ❌ Failed to start monitoring
+2025-07-28 04:29:15,810 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-28 04:29:16,012 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:16,214 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:29:16,215 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-28 04:31:08,668 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:31:08,668 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-28 04:31:08,668 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-28 04:31:08,668 - integrated_monitor - ERROR - ❌ DISCORD_WEBHOOK_URL not configured
+2025-07-28 04:31:08,668 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:31:08,668 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:08,668 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-28 04:31:08,669 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:31:08,669 - enhanced_notifier - ERROR - Discord webhook failed (400): <MagicMock name='post().text' id='4417143056'>
+2025-07-28 04:31:08,669 - integrated_monitor - ERROR - ❌ Discord connection test failed
+2025-07-28 04:31:08,669 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:08,670 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:08,670 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:08,670 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:08,670 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:10,937 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:31:10,937 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:31:10,937 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:31:10,937 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:31:11,230 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:31:11,231 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:31:11,231 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:31:11,231 - __main__ - ERROR - ❌ Error starting monitoring: SeleniumBase plugins DID NOT load!
+Either "seleniumbase" is not installed on your system,
+or you called "setUp()" directly without initialization!
+*** To install SeleniumBase in Develop Mode from a clone:
+    >>> "pip install -e ."     (Run in DIR with setup.py)
+*** To install the latest SeleniumBase version from PyPI:
+    >>> "pip install -U seleniumbase"    (Run in any DIR)
+NOTE: "setUp()" can ONLY be called after vars are set.
+    If using "pytest", then "pytest_plugin.py" sets them.
+    The SeleniumBase "SB()" Manager can also set them.
+See SeleniumBase/help_docs/syntax_formats.md for details!
+2025-07-28 04:31:11,613 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:41:15,132 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:41:15,132 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:41:15,132 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:41:15,132 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:41:15,453 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:41:15,454 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:41:15,454 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:41:16,874 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-28 04:41:17,165 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:41:17,165 - __main__ - INFO - 🎯 Starting monitoring with 30s interval
+2025-07-28 04:41:17,391 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:41:34,832 - enhanced_notifier - ERROR - Discord webhook failed (400): {"content": ["Must be 2000 or fewer in length."]}
+2025-07-28 04:41:35,057 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:41:35,057 - __main__ - ERROR - ❌ Failed to start monitoring
+2025-07-28 04:41:35,293 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-28 04:41:35,293 - __main__ - WARNING - ⚠️ Error during teardown: 'SmartJobMonitorSB' object has no attribute 'tearDown'
+2025-07-28 04:41:35,650 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:41:35,650 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-28 04:43:34,141 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:43:34,141 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:43:34,141 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:43:34,141 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:43:34,378 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:43:34,379 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:43:34,379 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:43:34,379 - __main__ - ERROR - ❌ Error starting monitoring: SB() got an unexpected keyword argument 'no_sandbox'
+2025-07-28 04:43:34,604 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:44:18,664 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:44:18,664 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:44:18,664 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:44:18,664 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:44:18,869 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:44:18,869 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:44:18,869 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:44:18,870 - __main__ - ERROR - ❌ Error starting monitoring: SB() got an unexpected keyword argument 'disable_gpu'
+2025-07-28 04:44:19,141 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:44:48,329 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:44:48,329 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:44:48,329 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:44:48,329 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:44:48,584 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:44:48,585 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:44:48,586 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:44:49,583 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-28 04:44:49,920 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:44:49,920 - __main__ - INFO - 🎯 Starting monitoring with 30s interval
+2025-07-28 04:44:50,120 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:44:55,982 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-28 04:44:56,031 - amazon_page_objects - INFO - ✅ Found consent button with selector 1: button[data-test-id="consentBtn"]
+2025-07-28 04:44:56,761 - amazon_page_objects - INFO - ✅ Consent button clicked successfully with selector: button[data-test-id="consentBtn"]
+2025-07-28 04:45:09,319 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-28 04:45:09,321 - amazon_page_objects - INFO - ℹ️ Consent already handled, skipping...
+2025-07-28 04:45:09,321 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-28 04:45:10,391 - amazon_page_objects - INFO - ✅ Found bottom consent button: button[data-test-component="StencilReactButton"] div:contains("I consent")
+2025-07-28 04:45:11,065 - amazon_page_objects - INFO - ✅ Bottom consent button clicked successfully
+2025-07-28 04:45:16,697 - amazon_page_objects - INFO - 🔍 Checking for bottom consent button...
+2025-07-28 04:45:17,846 - amazon_page_objects - INFO - ℹ️ No bottom consent button found
+2025-07-28 04:45:18,114 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:45:18,310 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:45:18,311 - __main__ - ERROR - ❌ Failed to start monitoring
+2025-07-28 04:45:18,545 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-28 04:45:18,741 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:45:18,742 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-28 04:55:47,886 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:55:47,887 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:55:47,887 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:55:47,887 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:55:48,178 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:55:48,179 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:55:48,179 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:55:49,092 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-28 04:55:49,368 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:55:49,368 - __main__ - INFO - 🎯 Starting monitoring with 60s interval
+2025-07-28 04:55:49,683 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:56:00,774 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:00,779 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-28 04:56:01,036 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:56:01,037 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-28 04:56:02,482 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:02,971 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:03,326 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:04,558 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:04,832 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:24,214 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:56:24,695 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 04:57:53,125 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-28 04:57:53,125 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-28 04:57:53,125 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-28 04:57:53,125 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-28 04:57:53,349 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:57:53,350 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-28 04:57:53,350 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-28 04:57:54,672 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-28 04:57:54,870 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:57:54,870 - __main__ - INFO - 🎯 Starting monitoring with 60s interval
+2025-07-28 04:57:55,084 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:58:10,362 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-28 04:58:10,362 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-28 04:58:17,462 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-28 04:58:17,650 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:58:18,410 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 04:59:19,220 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:00:20,551 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:01:21,465 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:02:22,453 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:03:23,310 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:04:24,130 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:05:25,025 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:06:26,080 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:07:26,865 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:08:27,715 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:09:28,665 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:10:29,649 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:11:30,709 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:12:31,487 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:13:32,564 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:14:33,396 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:15:34,321 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:16:35,260 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:17:36,267 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:18:37,072 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:19:38,237 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:20:39,069 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:21:40,096 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:22:40,908 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:23:29,251 - __main__ - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-28 05:23:29,253 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-28 05:23:29,576 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-28 05:23:29,578 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-28 05:23:40,914 - __main__ - INFO - ✅ Monitoring started successfully
+2025-07-29 19:18:34,447 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-29 19:18:34,448 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-29 19:18:34,448 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-29 19:18:34,448 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-29 19:18:34,903 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:18:34,904 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-29 19:18:34,904 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-29 19:18:36,255 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-29 19:18:36,943 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:18:36,943 - __main__ - INFO - 🎯 Starting monitoring with 60s interval
+2025-07-29 19:18:37,295 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:18:45,188 - session_manager - WARNING - ⚠️ Session is too old, requiring fresh login
+2025-07-29 19:18:48,079 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:18:49,021 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:18:49,022 - __main__ - ERROR - ❌ Failed to start monitoring
+2025-07-29 19:18:49,279 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-29 19:18:49,628 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:18:49,629 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-29 19:22:46,404 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-29 19:22:46,404 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-29 19:22:46,404 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-29 19:22:46,404 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-29 19:22:46,941 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:22:46,941 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-29 19:22:46,941 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-29 19:22:47,821 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-29 19:22:48,244 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:22:48,244 - __main__ - INFO - 🎯 Starting monitoring with 60s interval
+2025-07-29 19:22:48,666 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:23:08,444 - session_manager - INFO - ✅ Session valid - found: button:contains("Search all jobs")
+2025-07-29 19:23:08,444 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 19:23:19,006 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 19:23:19,407 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:23:20,235 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:23:20,235 - __main__ - ERROR - ❌ Failed to start monitoring
+2025-07-29 19:23:20,477 - __main__ - INFO - 🛑 Stopping monitoring system...
+2025-07-29 19:23:21,038 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:23:21,039 - __main__ - INFO - ✅ Monitoring stopped successfully
+2025-07-29 19:28:22,379 - __main__ - INFO - 🚀 Starting integrated job monitoring system
+2025-07-29 19:28:22,379 - __main__ - INFO - 🔍 Validating configuration...
+2025-07-29 19:28:22,379 - __main__ - INFO - ✅ Configuration validation passed
+2025-07-29 19:28:22,379 - __main__ - INFO - 🔗 Testing Discord connection...
+2025-07-29 19:28:22,922 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:28:22,923 - __main__ - INFO - ✅ Discord connection test successful
+2025-07-29 19:28:22,923 - __main__ - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-29 19:28:23,885 - __main__ - INFO - 🧪 Running in TEST MODE
+2025-07-29 19:28:24,364 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:28:24,366 - __main__ - INFO - 🎯 Starting monitoring with 60s interval
+2025-07-29 19:28:24,844 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:28:39,597 - session_manager - INFO - 📊 Added 16/16 cookies
+2025-07-29 19:28:47,882 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 19:28:47,882 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 19:28:54,997 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 19:28:55,410 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:28:59,883 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:30:04,251 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:31:08,718 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:32:13,189 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:33:17,693 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:34:22,744 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:35:27,813 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:36:34,910 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:37:40,115 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:38:44,353 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:39:49,226 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:40:53,706 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:41:58,350 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:43:02,696 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:44:07,683 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:45:12,158 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:46:16,800 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:47:21,134 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:48:25,449 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:49:30,478 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:50:30,969 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:51:37,457 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:52:37,906 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:01,314 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 19:53:01,314 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 19:53:01,314 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 19:53:02,303 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:02,304 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 19:53:02,304 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 19:53:02,304 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 19:53:02,304 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 19:53:03,842 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:03,843 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 19:53:03,843 - integrated_monitor - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-29 19:53:04,817 - integrated_monitor - INFO - 🧪 Running in TEST MODE
+2025-07-29 19:53:06,220 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:06,221 - integrated_monitor - INFO - 🎯 Starting monitoring with 300s interval
+2025-07-29 19:53:06,828 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:21,408 - session_manager - INFO - 📊 Added 16/16 cookies
+2025-07-29 19:53:29,473 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 19:53:29,473 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 19:53:36,599 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 19:53:36,944 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:39,461 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:53:41,021 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:55:39,997 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:57:41,817 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:58:49,884 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 19:59:45,611 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:01:46,222 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:03:46,901 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:03:57,189 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:05:49,881 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:07:50,629 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:09:03,471 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:09:51,147 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:11:54,387 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:13:56,826 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:14:23,686 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:15:57,466 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:17:57,974 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:19:59,429 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:19:59,457 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:22:00,156 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 20:29:05,517 - enhanced_notifier - ERROR - Error sending Discord notification: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1399303189622296577/0sNzPRnz6nH5BWXW3Jg1khIeFOLENSLeXJNbOU9zD4K43aT6DFQNR349EOBCw44Wi5le (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x103b7ecf0>: Failed to resolve 'discord.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-29 20:30:05,027 - enhanced_notifier - ERROR - Error sending Discord notification: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1399303189622296577/0sNzPRnz6nH5BWXW3Jg1khIeFOLENSLeXJNbOU9zD4K43aT6DFQNR349EOBCw44Wi5le (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107862900>: Failed to resolve 'discord.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-29 20:31:05,583 - enhanced_notifier - ERROR - Error sending Discord notification: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1399303189622296577/0sNzPRnz6nH5BWXW3Jg1khIeFOLENSLeXJNbOU9zD4K43aT6DFQNR349EOBCw44Wi5le (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x103b80aa0>: Failed to resolve 'discord.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-29 20:33:05,677 - enhanced_notifier - ERROR - Error sending Discord notification: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1399303189622296577/0sNzPRnz6nH5BWXW3Jg1khIeFOLENSLeXJNbOU9zD4K43aT6DFQNR349EOBCw44Wi5le (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x103b816a0>: Failed to resolve 'discord.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-29 21:12:47,219 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:12:49,264 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:15:49,766 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:15:51,005 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:15:51,015 - integrated_monitor - INFO - 🛑 Stopping monitoring system...
+2025-07-29 21:15:51,225 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:15:51,282 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:15:51,283 - integrated_monitor - INFO - ✅ Monitoring stopped successfully
+2025-07-29 21:15:51,788 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:15:52,015 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:15:52,374 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:15:52,796 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:15:53,027 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:16:22,402 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:16:22,402 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:16:22,402 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:16:22,640 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:16:22,641 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:17:59,849 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:17:59,849 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:17:59,849 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:18:00,289 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:18:00,289 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:18:00,290 - enhanced_integrated_monitor - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-29 21:18:00,291 - enhanced_integrated_monitor - ERROR - Error initializing smart monitor: SmartJobMonitorSB.__init__() got an unexpected keyword argument 'test_mode'
+2025-07-29 21:18:00,291 - enhanced_integrated_monitor - ERROR - Enhanced monitoring error: SmartJobMonitorSB.__init__() got an unexpected keyword argument 'test_mode'
+2025-07-29 21:18:08,339 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:18:08,339 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:18:08,339 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:18:08,617 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:18:08,618 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:18:08,618 - enhanced_integrated_monitor - INFO - 🚀 Initializing Smart Job Monitor...
+2025-07-29 21:18:08,619 - enhanced_integrated_monitor - ERROR - Error initializing smart monitor: SmartJobMonitorSB.__init__() got an unexpected keyword argument 'test_mode'
+2025-07-29 21:18:08,619 - enhanced_integrated_monitor - ERROR - Enhanced monitoring error: SmartJobMonitorSB.__init__() got an unexpected keyword argument 'test_mode'
+2025-07-29 21:19:44,773 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:19:44,773 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:19:44,773 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:19:45,344 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:19:45,345 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:19:45,345 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:19:46,742 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 21:19:46,742 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 21:19:46,742 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 21:19:55,931 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:19:56,122 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:20:01,413 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:20:01,413 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Sortation Center Warehouse Associate
+2025-07-29 21:20:08,877 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:20:08,878 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 21:20:08,878 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 21:20:12,302 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:20:12,491 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:20:17,761 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:20:17,762 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 21:20:22,200 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:20:22,201 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 21:20:22,201 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 21:20:25,771 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:20:25,928 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:20:31,175 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:20:31,175 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Delivery Station Warehouse Associate
+2025-07-29 21:20:33,600 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:20:33,601 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 21:20:33,601 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 21:20:37,210 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:20:37,395 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:20:41,886 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:42,185 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:42,459 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:43,401 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:43,677 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:43,983 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:44,255 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:44,511 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:44,776 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:20:45,043 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:26:46,920 - enhanced_integrated_monitor - WARNING - ⚠️ Could not determine job count
+2025-07-29 21:26:46,922 - enhanced_integrated_monitor - INFO - 📊 Found 0 jobs for Locker+ Retail Associate
+2025-07-29 21:30:21,960 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:30:21,960 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:30:21,961 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:30:22,525 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:30:22,525 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:30:22,525 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:30:35,591 - session_manager - INFO - 📊 Added 16/16 cookies
+2025-07-29 21:30:43,862 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 21:30:51,544 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 21:30:59,279 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 21:30:59,279 - session_manager - WARNING - ⚠️ Session restoration failed after validation
+2025-07-29 21:30:59,279 - enhanced_integrated_monitor - INFO - ℹ️ No existing session found, starting fresh
+2025-07-29 21:30:59,279 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 21:30:59,357 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 21:30:59,358 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 21:31:04,344 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:31:04,498 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:31:09,594 - enhanced_integrated_monitor - INFO - Found count text: 'Total 1 job found'
+2025-07-29 21:31:09,660 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:09,912 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:10,100 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:10,275 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:10,456 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:10,638 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:10,946 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:31:11,175 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:32:11,329 - enhanced_integrated_monitor - WARNING - ⚠️ Could not determine job count
+2025-07-29 21:32:11,330 - enhanced_integrated_monitor - INFO - 📊 Found 0 jobs for Sortation Center Warehouse Associate
+2025-07-29 21:33:40,540 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:33:40,957 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:33:41,199 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:33:41,708 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:33:42,016 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:33:42,809 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:33:42,810 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 21:33:42,810 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 21:34:43,944 - enhanced_integrated_monitor - ERROR - Error processing Fulfillment Center Warehouse Associate: Message: Active window was already closed!
+
+2025-07-29 21:34:43,945 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 21:34:43,945 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 21:35:44,085 - enhanced_integrated_monitor - ERROR - Error processing Delivery Station Warehouse Associate: Message: Active window was already closed!
+
+2025-07-29 21:35:44,085 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 21:35:44,085 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 21:37:23,884 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:37:23,885 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:37:23,885 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:37:25,257 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:37:25,257 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:37:25,258 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:37:35,370 - session_manager - INFO - 📊 Added 16/16 cookies
+2025-07-29 21:37:43,702 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 21:37:51,393 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 21:37:59,085 - session_manager - WARNING - ⚠️ Session invalid - found logout indicator: input[data-test-id="input-test-id-login"]
+2025-07-29 21:37:59,086 - session_manager - WARNING - ⚠️ Session restoration failed after validation
+2025-07-29 21:37:59,086 - enhanced_integrated_monitor - INFO - ℹ️ No existing session found, creating new session...
+2025-07-29 21:37:59,086 - create_session - INFO - 🔐 Creating Amazon session...
+2025-07-29 21:37:59,086 - create_session - INFO - 🌐 Navigating to Amazon hiring page...
+2025-07-29 21:38:03,224 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:38:03,289 - amazon_page_objects - INFO - 🍪 Checking for consent buttons...
+2025-07-29 21:38:04,767 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:38:05,052 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:38:05,052 - integrated_monitor - WARNING - ⚠️ Multiple shutdown signals received, forcing exit...
+2025-07-29 21:38:05,743 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 21:38:05,744 - integrated_monitor - WARNING - ⚠️ Multiple shutdown signals received, forcing exit...
+2025-07-29 21:39:43,481 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:39:43,481 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:39:43,481 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:39:43,775 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:39:43,775 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:39:43,775 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:39:53,085 - session_manager - INFO - 📊 Added 15/15 cookies
+2025-07-29 21:40:01,294 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 21:40:01,294 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 21:40:01,294 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 21:40:01,294 - enhanced_integrated_monitor - INFO - 🛑 Stop signal received, exiting...
+2025-07-29 21:43:05,145 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:43:05,145 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:43:05,145 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:43:05,416 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:43:05,416 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:43:05,416 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:43:14,255 - session_manager - INFO - 📊 Added 15/15 cookies
+2025-07-29 21:43:22,459 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 21:43:22,459 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 21:43:22,459 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 21:43:22,460 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 21:43:22,522 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 21:43:22,522 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 21:43:27,148 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:43:27,280 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:43:32,373 - enhanced_integrated_monitor - INFO - Found count text: 'Total 1 job found'
+2025-07-29 21:43:32,522 - enhanced_integrated_monitor - INFO - Found count text: 'Warning
+We couldn't get your location.For the best experience, please allow location tracking. Alternatively, you can search for jobs by using a postcode.
+Close sticky alerts
+Open side menu.
+English
+Location
+Close guided search
+Tell us a little more about yourself.
+Step 1/5
+What's the location of your home address?
+Location
+View all filters
+Skip
+Total 1 job found
+1 jobs that support English
+Premium Pay
+Sortation Center Warehouse Associate
+1 shift available
+Type: Part Time
+Duration: Seasonal
+Pay rate: Up to $21.50
+Salt Lake City, UT
+1
+Other recommended jobs for you
+Here are some more jobs that you might be interested in.
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $22.00
+Hooksett, NH
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $21.25
+Spokane, WA
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $20.25
+Fishersville, VA
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $20.00
+Granville, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.75
+Bath, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.50
+Las Cruces, NM
+JOIN US NOW
+facebookfacebook
+instagraminstagram
+x-twitterx-twitter
+linkedinlinkedin
+GET STARTED
+Hiring Process
+Application Guide
+JOB OPPORTUNITIES
+Amazon Jobs Overview
+Job Search
+Jobs by Location/Facility
+Jobs by Type
+WHY AMAZON
+Benefits
+Our Culture
+Work-Life Balance
+Career Advancement
+RESOURCES
+FAQs
+People with Disabilities
+Amazon News
+Contact us
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+EEO Law
+Privacy Notice
+© 1996-2025, Amazon.com, Inc. or its affiliates'
+2025-07-29 21:43:32,687 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 98
+2025-07-29 21:43:32,687 - enhanced_integrated_monitor - INFO - 📊 Found 98 jobs for Sortation Center Warehouse Associate
+2025-07-29 21:43:34,612 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:43:34,612 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 21:43:34,612 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 21:43:39,366 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:43:39,499 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:43:44,598 - enhanced_integrated_monitor - INFO - Found count text: 'Total 1 job found'
+2025-07-29 21:43:44,744 - enhanced_integrated_monitor - INFO - Found count text: 'Warning
+We couldn't get your location.For the best experience, please allow location tracking. Alternatively, you can search for jobs by using a postcode.
+Close sticky alerts
+Open side menu.
+English
+Location
+Close guided search
+Tell us a little more about yourself.
+Step 1/5
+What's the location of your home address?
+Location
+View all filters
+Skip
+Total 1 job found
+1 jobs that support English
+Premium Pay
+Sortation Center Warehouse Associate
+1 shift available
+Type: Part Time
+Duration: Seasonal
+Pay rate: Up to $21.50
+Salt Lake City, UT
+1
+Other recommended jobs for you
+Here are some more jobs that you might be interested in.
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $22.00
+Hooksett, NH
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $21.25
+Spokane, WA
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $20.25
+Fishersville, VA
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $20.00
+Granville, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.75
+Bath, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.50
+Las Cruces, NM
+JOIN US NOW
+facebookfacebook
+instagraminstagram
+x-twitterx-twitter
+linkedinlinkedin
+GET STARTED
+Hiring Process
+Application Guide
+JOB OPPORTUNITIES
+Amazon Jobs Overview
+Job Search
+Jobs by Location/Facility
+Jobs by Type
+WHY AMAZON
+Benefits
+Our Culture
+Work-Life Balance
+Career Advancement
+RESOURCES
+FAQs
+People with Disabilities
+Amazon News
+Contact us
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+EEO Law
+Privacy Notice
+© 1996-2025, Amazon.com, Inc. or its affiliates'
+2025-07-29 21:43:44,891 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 98
+2025-07-29 21:43:44,892 - enhanced_integrated_monitor - INFO - 📊 Found 98 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 21:43:47,006 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:43:47,008 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 21:43:47,008 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 21:43:51,454 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:43:51,614 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:43:56,695 - enhanced_integrated_monitor - INFO - Found count text: 'Total 1 job found'
+2025-07-29 21:43:56,827 - enhanced_integrated_monitor - INFO - Found count text: 'Warning
+We couldn't get your location.For the best experience, please allow location tracking. Alternatively, you can search for jobs by using a postcode.
+Close sticky alerts
+Open side menu.
+English
+Location
+Close guided search
+Tell us a little more about yourself.
+Step 1/5
+What's the location of your home address?
+Location
+View all filters
+Skip
+Total 1 job found
+1 jobs that support English
+Premium Pay
+Sortation Center Warehouse Associate
+1 shift available
+Type: Part Time
+Duration: Seasonal
+Pay rate: Up to $21.50
+Salt Lake City, UT
+1
+Other recommended jobs for you
+Here are some more jobs that you might be interested in.
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $22.00
+Hooksett, NH
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $21.25
+Spokane, WA
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $20.25
+Fishersville, VA
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $20.00
+Granville, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.75
+Bath, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.50
+Las Cruces, NM
+JOIN US NOW
+facebookfacebook
+instagraminstagram
+x-twitterx-twitter
+linkedinlinkedin
+GET STARTED
+Hiring Process
+Application Guide
+JOB OPPORTUNITIES
+Amazon Jobs Overview
+Job Search
+Jobs by Location/Facility
+Jobs by Type
+WHY AMAZON
+Benefits
+Our Culture
+Work-Life Balance
+Career Advancement
+RESOURCES
+FAQs
+People with Disabilities
+Amazon News
+Contact us
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+EEO Law
+Privacy Notice
+© 1996-2025, Amazon.com, Inc. or its affiliates'
+2025-07-29 21:43:56,978 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 98
+2025-07-29 21:43:56,978 - enhanced_integrated_monitor - INFO - 📊 Found 98 jobs for Delivery Station Warehouse Associate
+2025-07-29 21:43:59,063 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:43:59,064 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 21:43:59,064 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 21:44:03,477 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:44:03,604 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:44:08,684 - enhanced_integrated_monitor - INFO - Found count text: 'Total 1 job found'
+2025-07-29 21:44:08,817 - enhanced_integrated_monitor - INFO - Found count text: 'Warning
+We couldn't get your location.For the best experience, please allow location tracking. Alternatively, you can search for jobs by using a postcode.
+Close sticky alerts
+Open side menu.
+English
+Location
+Close guided search
+Tell us a little more about yourself.
+Step 1/5
+What's the location of your home address?
+Location
+View all filters
+Skip
+Total 1 job found
+1 jobs that support English
+Premium Pay
+Sortation Center Warehouse Associate
+1 shift available
+Type: Part Time
+Duration: Seasonal
+Pay rate: Up to $21.50
+Salt Lake City, UT
+1
+Other recommended jobs for you
+Here are some more jobs that you might be interested in.
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $22.00
+Hooksett, NH
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $21.25
+Spokane, WA
+Featured
+Fulfillment Center Warehouse Associate
+1 shift available
+Type: Full Time
+Duration: Seasonal
+Pay rate: Up to $20.25
+Fishersville, VA
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $20.00
+Granville, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.75
+Bath, NY
+Featured
+Delivery Station Warehouse Associate
+1 shift available
+Type: Flex Time
+Duration: Regular
+Pay rate: Up to $18.50
+Las Cruces, NM
+JOIN US NOW
+facebookfacebook
+instagraminstagram
+x-twitterx-twitter
+linkedinlinkedin
+GET STARTED
+Hiring Process
+Application Guide
+JOB OPPORTUNITIES
+Amazon Jobs Overview
+Job Search
+Jobs by Location/Facility
+Jobs by Type
+WHY AMAZON
+Benefits
+Our Culture
+Work-Life Balance
+Career Advancement
+RESOURCES
+FAQs
+People with Disabilities
+Amazon News
+Contact us
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+EEO Law
+Privacy Notice
+© 1996-2025, Amazon.com, Inc. or its affiliates'
+2025-07-29 21:44:08,963 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 98
+2025-07-29 21:44:08,963 - enhanced_integrated_monitor - INFO - 📊 Found 98 jobs for Locker+ Retail Associate
+2025-07-29 21:44:11,240 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:44:11,623 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:44:11,654 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 21:44:11,654 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 21:44:11,654 - session_manager - INFO - 🍪 Cookies count: 24
+2025-07-29 21:44:11,654 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 21:47:58,657 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:47:58,657 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:47:58,658 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:47:59,193 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:47:59,194 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:47:59,194 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:48:08,151 - session_manager - INFO - 📊 Added 24/24 cookies
+2025-07-29 21:48:16,458 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 21:48:16,459 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 21:48:16,459 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 21:48:16,459 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 21:48:16,517 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 21:48:16,517 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 21:48:21,217 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:48:21,376 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:48:26,667 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:48:26,667 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Sortation Center Warehouse Associate
+2025-07-29 21:48:29,092 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:48:29,093 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 21:48:29,094 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 21:48:33,538 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:48:33,669 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:48:38,924 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:48:38,924 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 21:48:41,318 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:48:41,319 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 21:48:41,319 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 21:48:45,767 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:48:45,948 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:48:51,216 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:48:51,216 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Delivery Station Warehouse Associate
+2025-07-29 21:48:53,667 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:48:53,667 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 21:48:53,667 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 21:48:58,030 - enhanced_integrated_monitor - INFO - 🎯 Setting 150 miles filter...
+2025-07-29 21:48:58,187 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:49:03,466 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:49:03,467 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Locker+ Retail Associate
+2025-07-29 21:49:05,782 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:49:06,149 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:49:06,181 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 21:49:06,181 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 21:49:06,181 - session_manager - INFO - 🍪 Cookies count: 24
+2025-07-29 21:49:06,181 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 21:52:39,782 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 21:52:39,782 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 21:52:39,782 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 21:52:42,185 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:52:42,185 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 21:52:42,186 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 21:52:50,838 - session_manager - INFO - 📊 Added 24/24 cookies
+2025-07-29 21:52:59,020 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 21:52:59,020 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 21:52:59,021 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 21:52:59,021 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #1
+2025-07-29 21:52:59,021 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 21:52:59,076 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 21:52:59,076 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 21:53:03,717 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:53:03,858 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:53:09,193 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:53:09,195 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Sortation Center Warehouse Associate
+2025-07-29 21:53:11,514 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:53:11,514 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 21:53:11,514 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 21:53:15,902 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:53:16,020 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:53:21,298 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:53:21,298 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 21:53:23,867 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:53:23,868 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 21:53:23,869 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 21:53:28,310 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:53:28,455 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:53:33,724 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:53:33,725 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Delivery Station Warehouse Associate
+2025-07-29 21:53:35,959 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:53:35,959 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 21:53:35,959 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 21:53:40,412 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:53:40,547 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:53:45,796 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:53:45,796 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Locker+ Retail Associate
+2025-07-29 21:53:48,092 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:53:48,354 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:53:48,381 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 21:53:48,381 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 21:53:48,381 - session_manager - INFO - 🍪 Cookies count: 24
+2025-07-29 21:53:48,381 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 21:53:48,381 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 21:58:49,346 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #2
+2025-07-29 21:58:49,349 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 21:58:49,440 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 21:58:49,440 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 21:58:53,968 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:58:54,103 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:58:59,372 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:58:59,372 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Sortation Center Warehouse Associate
+2025-07-29 21:59:01,620 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:59:01,621 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 21:59:01,621 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 21:59:06,053 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:59:06,185 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:59:11,459 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:59:11,460 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 21:59:13,935 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:59:13,935 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 21:59:13,936 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 21:59:18,297 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:59:18,421 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:59:23,740 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:59:23,740 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Delivery Station Warehouse Associate
+2025-07-29 21:59:26,282 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:59:26,282 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 21:59:26,282 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 21:59:30,673 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 21:59:30,810 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 21:59:36,076 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 189
+2025-07-29 21:59:36,076 - enhanced_integrated_monitor - INFO - 📊 Found 189 jobs for Locker+ Retail Associate
+2025-07-29 21:59:38,468 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:59:38,891 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 21:59:38,912 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 21:59:38,912 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 21:59:38,912 - session_manager - INFO - 🍪 Cookies count: 24
+2025-07-29 21:59:38,912 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 21:59:38,912 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:02:00,993 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 22:02:00,995 - integrated_monitor - INFO - 🛑 Stopping monitoring system...
+2025-07-29 22:02:01,398 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:02:01,398 - integrated_monitor - INFO - ✅ Monitoring stopped successfully
+2025-07-29 22:05:02,718 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 22:05:02,719 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 22:05:02,719 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 22:05:03,255 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:05:03,256 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 22:05:03,256 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 22:05:12,664 - session_manager - INFO - 📊 Added 24/24 cookies
+2025-07-29 22:05:21,116 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 22:05:21,117 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 22:05:21,117 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 22:05:21,117 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #1
+2025-07-29 22:05:21,117 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:05:21,170 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:05:21,170 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:05:25,780 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:05:25,878 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:05:31,168 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:05:31,169 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:05:34,252 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:05:34,253 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:05:34,253 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:05:38,787 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:05:38,882 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:05:44,114 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:05:44,115 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:05:46,556 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:05:46,557 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:05:46,557 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:05:50,910 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:05:51,021 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:05:56,352 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:05:56,353 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:05:58,862 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:05:58,862 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:05:58,862 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:06:03,226 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:06:03,329 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:06:08,584 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:06:08,585 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Locker+ Retail Associate
+2025-07-29 22:06:11,955 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:06:12,210 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:06:12,232 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:06:12,232 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:06:12,232 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:06:12,232 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:06:12,232 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:10:27,308 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 22:10:27,321 - integrated_monitor - INFO - 🛑 Stopping monitoring system...
+2025-07-29 22:10:27,651 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:10:27,652 - integrated_monitor - INFO - ✅ Monitoring stopped successfully
+2025-07-29 22:13:32,565 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 22:13:32,565 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 22:13:32,565 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 22:13:32,908 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:13:32,908 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 22:13:32,909 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 22:13:42,119 - session_manager - INFO - 📊 Added 25/25 cookies
+2025-07-29 22:13:50,464 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 22:13:50,465 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 22:13:50,465 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 22:13:50,465 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #1
+2025-07-29 22:13:50,465 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:13:50,521 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:13:50,521 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:13:54,170 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:13:54,306 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:13:58,729 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:14:02,015 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:14:02,015 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:14:04,267 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:14:04,268 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:14:04,268 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:14:07,654 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:14:07,764 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:14:12,071 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:14:15,368 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:14:15,370 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:14:18,535 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:14:18,536 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:14:18,537 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:14:22,052 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:14:22,181 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:14:26,506 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:14:29,798 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:14:29,799 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:14:32,086 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:14:32,086 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:14:32,086 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:14:35,558 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:14:35,679 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:14:40,143 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:14:43,439 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:14:46,721 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 188
+2025-07-29 22:14:46,721 - enhanced_integrated_monitor - INFO - 📊 Found 188 jobs for Locker+ Retail Associate
+2025-07-29 22:14:49,737 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:14:50,020 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:14:50,070 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:14:50,071 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:14:50,071 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:14:50,071 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:14:50,071 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:16:01,726 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 22:16:01,729 - integrated_monitor - INFO - 🛑 Stopping monitoring system...
+2025-07-29 22:16:02,332 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:16:02,332 - integrated_monitor - INFO - ✅ Monitoring stopped successfully
+2025-07-29 22:23:05,171 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 22:23:05,171 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 22:23:05,171 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 22:23:05,734 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:23:05,735 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 22:23:05,735 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 22:23:15,185 - session_manager - INFO - 📊 Added 25/25 cookies
+2025-07-29 22:23:23,667 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 22:23:23,667 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 22:23:23,668 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 22:23:23,668 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #1
+2025-07-29 22:23:23,668 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:23:23,726 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:23:23,726 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:23:29,585 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:23:29,586 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:23:34,954 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:23:39,350 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:23:42,634 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 187
+2025-07-29 22:23:42,634 - enhanced_integrated_monitor - INFO - 📊 Found 187 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:23:44,877 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:23:44,878 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:23:44,878 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:23:50,498 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:23:50,499 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:23:55,912 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:24:00,250 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:24:03,558 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 187
+2025-07-29 22:24:03,558 - enhanced_integrated_monitor - INFO - 📊 Found 187 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:24:06,079 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:24:06,080 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:24:06,080 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:24:12,674 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:24:12,675 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:24:18,133 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:24:22,587 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:24:25,870 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 187
+2025-07-29 22:24:25,870 - enhanced_integrated_monitor - INFO - 📊 Found 187 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:24:28,156 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:24:28,156 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:24:28,156 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:24:33,825 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:24:33,827 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:24:39,218 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:24:43,597 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:24:46,892 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 187
+2025-07-29 22:24:46,893 - enhanced_integrated_monitor - INFO - 📊 Found 187 jobs for Locker+ Retail Associate
+2025-07-29 22:24:49,091 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:24:49,384 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:24:49,410 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:24:49,410 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:24:49,410 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:24:49,410 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:24:49,410 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:29:50,426 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #2
+2025-07-29 22:29:50,428 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:29:50,496 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:29:50,496 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:29:56,128 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:29:56,128 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:30:01,548 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:30:05,934 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:30:09,273 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 180
+2025-07-29 22:30:09,274 - enhanced_integrated_monitor - INFO - 📊 Found 180 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:30:12,174 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:30:12,175 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:30:12,175 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:30:17,803 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:30:17,804 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:30:23,181 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:30:27,559 - enhanced_integrated_monitor - WARNING - ⚠️ Could not find commute distance filter
+2025-07-29 22:30:30,833 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 180
+2025-07-29 22:30:30,834 - enhanced_integrated_monitor - INFO - 📊 Found 180 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:30:33,137 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:30:33,137 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:30:33,138 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:30:38,731 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:30:38,732 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:30:44,158 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:30:44,359 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 22:30:44,359 - integrated_monitor - INFO - 🛑 Stopping monitoring system...
+2025-07-29 22:30:44,626 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 22:30:44,659 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:30:44,659 - integrated_monitor - INFO - ✅ Monitoring stopped successfully
+2025-07-29 22:30:44,814 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 22:33:32,256 - integrated_monitor - INFO - 🔍 Validating configuration...
+2025-07-29 22:33:32,256 - integrated_monitor - INFO - ✅ Configuration validation passed
+2025-07-29 22:33:32,256 - integrated_monitor - INFO - 🔗 Testing Discord connection...
+2025-07-29 22:33:32,787 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:33:32,788 - integrated_monitor - INFO - ✅ Discord connection test successful
+2025-07-29 22:33:32,788 - enhanced_integrated_monitor - INFO - 🚀 Starting Enhanced Job Monitor with SeleniumBase...
+2025-07-29 22:33:41,974 - session_manager - INFO - 📊 Added 25/25 cookies
+2025-07-29 22:33:50,281 - session_manager - INFO - ✅ Session valid - found: div:contains("Recommended jobs")
+2025-07-29 22:33:50,282 - session_manager - INFO - ✅ Session restored successfully for lovepreet@teamarora.com
+2025-07-29 22:33:50,282 - enhanced_integrated_monitor - INFO - ✅ Session restored successfully
+2025-07-29 22:33:50,282 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #1
+2025-07-29 22:33:50,282 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:33:50,339 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:33:50,339 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:33:56,262 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:33:56,263 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:33:58,448 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:34:01,875 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:34:05,074 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:34:08,425 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 180
+2025-07-29 22:34:08,426 - enhanced_integrated_monitor - INFO - 📊 Found 180 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:34:10,893 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:34:10,894 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:34:10,894 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:34:16,493 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:34:16,494 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:34:18,659 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:34:22,083 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:34:25,282 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:34:28,591 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 172
+2025-07-29 22:34:28,591 - enhanced_integrated_monitor - INFO - 📊 Found 172 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:34:30,743 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:34:30,744 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:34:30,744 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:34:36,367 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:34:36,367 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:34:38,568 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:34:41,994 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:34:45,193 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:34:48,458 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 172
+2025-07-29 22:34:48,458 - enhanced_integrated_monitor - INFO - 📊 Found 172 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:34:50,584 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:34:50,584 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:34:50,584 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:34:56,153 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:34:56,153 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:34:58,346 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:35:01,726 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:35:04,939 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:35:08,196 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 172
+2025-07-29 22:35:08,196 - enhanced_integrated_monitor - INFO - 📊 Found 172 jobs for Locker+ Retail Associate
+2025-07-29 22:35:10,399 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:35:10,733 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:35:10,762 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:35:10,762 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:35:10,762 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:35:10,762 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:35:10,762 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:40:11,748 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #2
+2025-07-29 22:40:11,750 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:40:11,843 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:40:11,844 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:40:17,511 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:40:17,512 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:40:19,740 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:40:23,243 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:40:26,441 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:40:29,739 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 171
+2025-07-29 22:40:29,740 - enhanced_integrated_monitor - INFO - 📊 Found 171 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:40:31,999 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:40:32,000 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:40:32,000 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:40:37,552 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:40:37,552 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:40:39,752 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:40:43,169 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:40:46,367 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:40:49,605 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 171
+2025-07-29 22:40:49,605 - enhanced_integrated_monitor - INFO - 📊 Found 171 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:40:51,776 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:40:51,776 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:40:51,776 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:40:57,381 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:40:57,382 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:40:59,582 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:41:02,960 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:41:06,163 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:41:09,445 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 171
+2025-07-29 22:41:09,445 - enhanced_integrated_monitor - INFO - 📊 Found 171 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:41:11,648 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:41:11,648 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:41:11,648 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:41:17,259 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:41:17,261 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:41:19,457 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:41:22,864 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:41:26,071 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:41:29,349 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 171
+2025-07-29 22:41:29,350 - enhanced_integrated_monitor - INFO - 📊 Found 171 jobs for Locker+ Retail Associate
+2025-07-29 22:41:32,527 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:41:33,020 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:41:33,055 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:41:33,055 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:41:33,055 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:41:33,055 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:41:33,055 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:46:33,989 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #3
+2025-07-29 22:46:33,990 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:46:34,080 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:46:34,080 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:46:39,745 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:46:39,745 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:46:42,034 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:46:45,525 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:46:48,751 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:46:52,014 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 164
+2025-07-29 22:46:52,014 - enhanced_integrated_monitor - INFO - 📊 Found 164 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:46:54,371 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:46:54,372 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:46:54,372 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:46:59,966 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:46:59,967 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:47:02,177 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:47:05,592 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:47:08,796 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:47:12,064 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 157
+2025-07-29 22:47:12,065 - enhanced_integrated_monitor - INFO - 📊 Found 157 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:47:14,249 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:47:14,255 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:47:14,255 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:47:19,848 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:47:19,848 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:47:22,055 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:47:25,453 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:47:28,664 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:47:31,945 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 157
+2025-07-29 22:47:31,945 - enhanced_integrated_monitor - INFO - 📊 Found 157 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:47:34,194 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:47:34,194 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:47:34,194 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:47:39,824 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:47:39,825 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:47:42,028 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:47:45,447 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:47:48,672 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:47:51,948 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 157
+2025-07-29 22:47:51,948 - enhanced_integrated_monitor - INFO - 📊 Found 157 jobs for Locker+ Retail Associate
+2025-07-29 22:47:53,956 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:47:54,219 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:47:54,247 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:47:54,247 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:47:54,247 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:47:54,247 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:47:54,247 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:52:55,279 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #4
+2025-07-29 22:52:55,282 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:52:55,381 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:52:55,381 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:53:01,235 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:53:01,236 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:53:03,480 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:53:06,920 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:53:10,150 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:53:13,464 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 165
+2025-07-29 22:53:13,465 - enhanced_integrated_monitor - INFO - 📊 Found 165 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:53:15,716 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:53:15,717 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:53:15,717 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:53:22,377 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:53:22,379 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:53:24,628 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:53:28,086 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:53:31,336 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:53:34,606 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 165
+2025-07-29 22:53:34,606 - enhanced_integrated_monitor - INFO - 📊 Found 165 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:53:36,805 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:53:36,805 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:53:36,805 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 22:53:42,444 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:53:42,445 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:53:44,661 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:53:48,100 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:53:51,328 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:53:54,583 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 165
+2025-07-29 22:53:54,583 - enhanced_integrated_monitor - INFO - 📊 Found 165 jobs for Delivery Station Warehouse Associate
+2025-07-29 22:53:56,694 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:53:56,695 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 22:53:56,696 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 22:54:02,332 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:54:02,334 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:54:04,536 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:54:07,952 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:54:11,154 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:54:14,428 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 165
+2025-07-29 22:54:14,428 - enhanced_integrated_monitor - INFO - 📊 Found 165 jobs for Locker+ Retail Associate
+2025-07-29 22:54:16,952 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:54:17,224 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:54:17,254 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 22:54:17,254 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 22:54:17,254 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 22:54:17,254 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 22:54:17,254 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 22:59:18,254 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #5
+2025-07-29 22:59:18,256 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 22:59:18,374 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 22:59:18,375 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 22:59:24,115 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:59:24,117 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:59:26,413 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:59:29,896 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:59:33,118 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:59:36,422 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 157
+2025-07-29 22:59:36,423 - enhanced_integrated_monitor - INFO - 📊 Found 157 jobs for Sortation Center Warehouse Associate
+2025-07-29 22:59:39,604 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:59:39,605 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 22:59:39,605 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 22:59:45,180 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 22:59:45,180 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 22:59:47,371 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 22:59:50,796 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 22:59:54,010 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 22:59:57,299 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 157
+2025-07-29 22:59:57,299 - enhanced_integrated_monitor - INFO - 📊 Found 157 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 22:59:59,353 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 22:59:59,353 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 22:59:59,353 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 23:00:04,975 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:00:04,976 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:00:07,228 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:00:10,650 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:00:13,923 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:00:17,182 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 165
+2025-07-29 23:00:17,183 - enhanced_integrated_monitor - INFO - 📊 Found 165 jobs for Delivery Station Warehouse Associate
+2025-07-29 23:00:19,382 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:00:19,382 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 23:00:19,382 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 23:00:25,017 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:00:25,017 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:00:27,210 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:00:30,601 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:00:33,809 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:00:37,061 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 165
+2025-07-29 23:00:37,061 - enhanced_integrated_monitor - INFO - 📊 Found 165 jobs for Locker+ Retail Associate
+2025-07-29 23:00:39,726 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:00:39,964 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:00:39,984 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 23:00:39,984 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 23:00:39,984 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 23:00:39,984 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 23:00:39,984 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 23:05:40,931 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #6
+2025-07-29 23:05:40,934 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 23:05:41,031 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 23:05:41,031 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 23:05:46,726 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:05:46,726 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:05:48,955 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:05:52,418 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:05:55,630 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:05:58,917 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:05:58,918 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Sortation Center Warehouse Associate
+2025-07-29 23:06:01,286 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:06:01,287 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 23:06:01,287 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 23:06:06,867 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:06:06,869 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:06:09,071 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:06:12,522 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:06:15,737 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:06:18,988 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:06:18,989 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 23:06:21,782 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:06:21,782 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 23:06:21,782 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 23:06:27,473 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:06:27,474 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:06:29,813 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:06:33,322 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:06:36,590 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:06:39,867 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:06:39,867 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Delivery Station Warehouse Associate
+2025-07-29 23:06:42,003 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:06:42,003 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 23:06:42,004 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 23:06:47,562 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:06:47,564 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:06:49,766 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:06:53,173 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:06:56,399 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:06:59,678 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:06:59,678 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Locker+ Retail Associate
+2025-07-29 23:07:01,815 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:07:02,294 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:07:02,315 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 23:07:02,315 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 23:07:02,315 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 23:07:02,315 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 23:07:02,316 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 23:12:03,296 - enhanced_integrated_monitor - INFO - 🔄 Starting monitoring cycle #7
+2025-07-29 23:12:03,297 - enhanced_integrated_monitor - INFO - 🌐 Starting enhanced job search workflow...
+2025-07-29 23:12:03,361 - enhanced_integrated_monitor - INFO - 🔍 [1/4] Testing Sortation Center Warehouse Associate...
+2025-07-29 23:12:03,362 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Amazon%20Sortation%20Center%20Warehouse%20Associate
+2025-07-29 23:12:09,044 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:12:09,044 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:12:11,458 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:12:14,898 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:12:18,131 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:12:21,502 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:12:21,502 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Sortation Center Warehouse Associate
+2025-07-29 23:12:23,816 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:12:23,817 - enhanced_integrated_monitor - INFO - 🔍 [2/4] Testing Fulfillment Center Warehouse Associate...
+2025-07-29 23:12:23,817 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Fulfillment%20Center%20Warehouse%20Associate
+2025-07-29 23:12:29,434 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:12:29,435 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:12:31,685 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:12:35,143 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:12:38,372 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:12:41,670 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:12:41,670 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Fulfillment Center Warehouse Associate
+2025-07-29 23:12:43,766 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:12:43,767 - enhanced_integrated_monitor - INFO - 🔍 [3/4] Testing Delivery Station Warehouse Associate...
+2025-07-29 23:12:43,767 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Delivery%20Station%20Warehouse%20Associate
+2025-07-29 23:12:49,301 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:12:49,301 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:12:51,564 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:12:54,939 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:12:58,162 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:13:01,511 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:13:01,511 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Delivery Station Warehouse Associate
+2025-07-29 23:13:04,099 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:13:04,100 - enhanced_integrated_monitor - INFO - 🔍 [4/4] Testing Locker+ Retail Associate...
+2025-07-29 23:13:04,100 - enhanced_integrated_monitor - INFO - 📍 Navigating to: https://hiring.amazon.com/app#/jobSearch?jobTitle=Locker%20Retail%20Associate
+2025-07-29 23:13:09,702 - enhanced_integrated_monitor - INFO - 🎛️ Opened filters panel
+2025-07-29 23:13:09,703 - enhanced_integrated_monitor - INFO - 🎯 Applying shift filters...
+2025-07-29 23:13:11,977 - enhanced_integrated_monitor - INFO - 🎯 Setting 100 miles filter...
+2025-07-29 23:13:15,414 - enhanced_integrated_monitor - INFO - ✅ Set commute distance to 100 miles
+2025-07-29 23:13:18,667 - enhanced_integrated_monitor - INFO - ✅ Applied all filters
+2025-07-29 23:13:21,917 - enhanced_integrated_monitor - INFO - 📊 Job count from cards (div[class*='job']): 173
+2025-07-29 23:13:21,917 - enhanced_integrated_monitor - INFO - 📊 Found 173 jobs for Locker+ Retail Associate
+2025-07-29 23:13:23,997 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:13:24,245 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:13:24,274 - session_manager - INFO - ✅ Session saved successfully for lovepreet@teamarora.com
+2025-07-29 23:13:24,274 - session_manager - INFO - 📁 Session file: amazon_session.pkl
+2025-07-29 23:13:24,274 - session_manager - INFO - 🍪 Cookies count: 25
+2025-07-29 23:13:24,274 - enhanced_integrated_monitor - INFO - 💾 Session saved successfully
+2025-07-29 23:13:24,274 - enhanced_integrated_monitor - INFO - ⏰ Waiting 300 seconds before next cycle...
+2025-07-29 23:15:21,905 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-29 23:15:21,921 - integrated_monitor - INFO - 🛑 Stopping monitoring system...
+2025-07-29 23:15:22,217 - enhanced_notifier - INFO - 🔔 Discord notification sent successfully
+2025-07-29 23:15:22,218 - integrated_monitor - INFO - ✅ Monitoring stopped successfully
+2025-07-29 23:15:22,306 - integrated_monitor - INFO - Received signal 2, initiating graceful shutdown...

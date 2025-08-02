@@ -1,0 +1,11 @@
+undetected-chromedriver
+selenium
+seleniumbase
+python-dotenv
+requests
+dataclasses
+typing-extensions
+pytest
+unittest-xml-reporting
+pyyaml
+pydantic

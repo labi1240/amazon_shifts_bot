@@ -1,0 +1,142 @@
+[
+  {
+    "domain": ".amazon.com",
+    "httpOnly": false,
+    "name": "s_ppv",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "https%253A%252F%252Fhiring.amazon.com%252Fapp%2523%252FjobSearch%2C66%2C66%2C753%2C1%2C1"
+  },
+  {
+    "domain": ".hiring.amazon.com",
+    "expiry": 1754445707,
+    "httpOnly": false,
+    "name": "aws-waf-token",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "e15d775c-9979-4e3c-a193-48942c2b2d28:EgoAZSINQ7RDAQAA:fU1YM6r/J/UQIT7cbbgqYlWfl3sQEJ8Kb5m+tMbqpW7vmW3altQe70r5UCCx/Dg0gqcAjizskDBAweY/nh9mK+yKQJPbDeqkyGTuDphVRtwahsrgFSAHpPW99n/YgRV53cb0IDRfXmNEHtHruCBsaF1XWOONPrNjK18dQ73x4PESvtRwnwlRGLdbm2nET9JuvnhzNredqJtE/jAwTu0BEj4tdAC6zkY+cYS5ocsru3ACoG/UEJv4cX8g"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "expiry": 1759284100,
+    "httpOnly": false,
+    "name": "QSI_SI_3qqYEt2Fv9AHalL_intercept",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "true"
+  },
+  {
+    "domain": ".amazon.com",
+    "httpOnly": false,
+    "name": "s_sq",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "%5B%5BB%5D%5D"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "httpOnly": true,
+    "name": "JSESSIONID",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "B46FF83ADB20E75E9A8C2BEE4658BB33"
+  },
+  {
+    "domain": ".amazon.com",
+    "httpOnly": false,
+    "name": "s_cc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "expiry": 1788660053,
+    "httpOnly": false,
+    "name": "adobe-session-id",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "de2b566d-efa9-4d90-b3ac-a1b5916cc42c"
+  },
+  {
+    "domain": ".amazon.com",
+    "expiry": 1785542400,
+    "httpOnly": false,
+    "name": "_ccid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1754100054122ootp6izb7"
+  },
+  {
+    "domain": ".amazon.com",
+    "expiry": 1788660042,
+    "httpOnly": false,
+    "name": "AMCV_CCBC879D5572070E7F000101%40AdobeOrg",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "179643557%7CMCIDTS%7C20303%7CMCMID%7C39024228363768850901833871014702223954%7CMCAAMLH-1754704842%7C7%7CMCAAMB-1754704842%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1754107242s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20310%7CvVersion%7C5.5.0"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "httpOnly": true,
+    "name": "hvh_cs_wlbsid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "127-6576813-9781879"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "httpOnly": false,
+    "name": "hvh-stage",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "prod"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "httpOnly": false,
+    "name": "hvh-locale",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "en-US"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "httpOnly": false,
+    "name": "hvh-country-code",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "US"
+  },
+  {
+    "domain": ".amazon.com",
+    "httpOnly": false,
+    "name": "AMCVS_CCBC879D5572070E7F000101%40AdobeOrg",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": "hiring.amazon.com",
+    "httpOnly": false,
+    "name": "hvh-default-locale",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "en-US"
+  }
+]

@@ -1,0 +1,35 @@
+# Filter Configuration for Amazon Shift Bot
+# This file is used by the enhanced_integrated_monitor.py
+
+# Active filters to apply during job search
+active_filters:
+  - cities
+
+# Shift filter definitions
+shift_filters:
+  # Target cities for job search
+  cities:
+    - "Seattle, WA"
+    - "Bellevue, WA" 
+    - "Renton, WA"
+    - "Tacoma, WA"
+    - "Everett, WA"
+    - "Kent, WA"
+    - "Federal Way, WA"
+    - "Bothell, WA"
+  
+  # Schedule preferences (not actively used but can be enabled)
+  schedule:
+    - "flexible"
+    - "day_shift"
+    - "evening_shift"
+    - "night_shift"
+    - "weekend"
+  
+  # Job role preferences (not actively used but can be enabled)
+  roles:
+    - "warehouse_associate"
+    - "fulfillment_center"
+    - "sortation_center"
+    - "delivery_station"
+    - "fresh_warehouse"

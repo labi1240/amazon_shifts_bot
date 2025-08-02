@@ -1,0 +1,24 @@
+tests/test_page_objects.py::MyTests::test_page_objects
+--------------------------------------------------------------------
+Last Page: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeleniumBase.io%2BDocs%26sca_esv%3D350ce77c903cf1b3%26source%3Dhp%26ei%3DRyGLaNKxCdiuptQP_quE2Qc%26iflsig%3DAOw8s4IAAAAAaIsvVy1d6AEsNDo0HmD8bU5QX5i6elTY%26ved%3D0ahUKEwiS8Z-kz-aOAxVYl4kEHf4VIXsQ4dUDCA8%26uact%3D5%26oq%3DSeleniumBase.io%2BDocs%26gs_lp%3DEgdnd3Mtd2l6IhRTZWxlbml1bUJhc2UuaW8gRG9jczIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEC4YAxjqAhiPATIKEC4YAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPAUi4AVCIAViTAXABeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgGgAgSoAgqYAwTxBX0y6ankrIRSkgcBMaAHALIHALgHAMIHAzItMcgHAw%26sclient%3Dgws-wiz%26sei%3DSSGLaO2YKe79ptQPz4uv-QE&q=EhAmB_6oD9wdANA5jGCWcaEoGMnCrMQGIjAtX7fPCQ5FaOILAVXY4wHwodJo24_FOqYJu8BJwSZm1VYEV5R6sEet3WRN4Z0GTJ0yAVJaAUM
+ Duration: 10.95s
+  Browser: Chrome 138.0.7204.183
+   Driver: chromedriver 138.0.7204.168
+Timestamp: 1753948497  (Unix Timestamp)
+     Date: Thursday, July 31, 2025
+     Time: 3:54:57 AM  (EDT, UTC-04:00)
+--------------------------------------------------------------------
+Traceback:
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/tests/test_page_objects.py", line 47, in test_page_objects
+    self.assert_text(expected_text, "#search")
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/fixtures/base_case.py", line 10258, in assert_text
+    self.wait_for_text_visible(text, selector, by=by, timeout=timeout)
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/fixtures/base_case.py", line 10081, in wait_for_text_visible
+    return page_actions.wait_for_text_visible(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/fixtures/page_actions.py", line 624, in wait_for_text_visible
+    timeout_exception(NoSuchElementException, message)
+  File "/Users/lovepreetgill/developer/amazon_shift_bot/venv/lib/python3.12/site-packages/seleniumbase/fixtures/page_actions.py", line 267, in timeout_exception
+    raise exc(msg)
+Exception: Message: 
+ Element {#search} was not present after 7 seconds!
